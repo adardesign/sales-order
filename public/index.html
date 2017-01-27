@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Shibolet Order Sheet</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="src/CSS/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="src/CSS/order-sheet.css">
+      </head>
+    <body>
+
+
+<div class="container">
+    <h1>Shibolet Ordering Sheet.</h1>
+    
+    <div class="card">
+      <div class="card-header">
+            <nav class="nav order-nav nav-tabs card-header-tabs"></nav>
+        </div>
+    </div>
+
+    <section id="order-form"></section>
+
+
+    <section id="order-summary">
+        <h2>Order Summary</h2>
+        <ul class="list-group"></ul>
+    </section>
+
+    <section id="order-total">
+        <h2 class="panel-heading"><span class="panel-title">Order Total</span></h2>
+        <div class="order-total-container">   
+    </section>
+
+    <section class="panel panel-primary" id="order-details">
+        <h2 class="panel-title">Order Information:</h2>
+        <form id="order-information">
+            <div class="row">
+                <div class="order-date form-group col-md-6">
+                    <label>Date:</label>
+                    <input class="form-control" type="date" name="date">
+                </div>
+                
+                <div class="form-group order-salesmen-id col-md-6 form-group">
+                    <label>salesmen-id</label>
+                    <input class="form-control" type="text" name="salesmen-id" value="002">
+                </div>                  
+              </div>
+
+            <div class="row">
+                <div class="order-customer-company form-group col-md-6">
+                    <label>Customer Name</label>
+                    <input class="form-control" type="text" required name="company">
+                </div>
+
+                <div class="form-group order-customer-name form-group col-md-6">
+                    <label>Contact Person</label>
+                    <input class="form-control" type="text" name="name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group order-customer-phone form-group col-md-6">
+                    <label>Phone:</label>
+                    <input class="form-control" type="tel" name="email">
+                </div>
+                <div class="form-group order-customer-email form-group col-md-6">
+                    <label>Email:</label>
+                    <input class="form-control" type="text" name="email">
+                </div>
+            </div>
+            <div class="form-group order-customer-address form-group">
+                <label>Address:</label>
+                <input class="form-control" type="text" name="customer-address">
+            </div>
+
+            <div class="form-group order-customer-ship-address form-group">
+                <label>Ship to Address: (If different)</label>
+                <input class="form-control" type="text" name="customer-address">
+            </div>
+
+         
+            <div class="row">
+                <div class="order-needed-by form-group col-md-4">
+                    <label>Order Needed By:</label>
+                    <input class="form-control" type="date" name="order-needed-by">
+                </div>
+
+                <div class="area form-group col-md-4">
+                    <label>Area:</label>
+                    <input class="form-control" type="text" name="area">
+                </div>
+                 <div class="payment-terms form-group col-md-4">
+                    <label>payment-terms:</label>
+                    <input class="form-control" type="text" name="payment-terms">
+                </div>
+            </div>
+
+            
+
+            <div class="form-group order-comments">
+                <label>General comments:</label>
+                <textarea type="text" class="form-control" name="order-comments"></textarea>
+            </div>
+            
+            <div class="form-group">            
+                <button type="submit" class="btn btn-lg btn-block btn-primary submit-order">Submit Order</button>
+            </div>
+    </form>
+</section>
+
+</div>
+
+
+
+<script src="src/JS/jquery-3.1.1.min.js"></script>
+<script src="src/JS/microTmpl.js"></script>
+<script src="src/JS/utils.js"></script>
+<script src="src/JS/actionBind.js"></script>
+<script src="src/JS/shibolet.js"></script>
+<script src="src/JS/sw-registar.js"></script>
+
+    <script type="tmpl" id="catagoryTmpl">
+        <h3><%=utils.format.capitalize(catagory)%></h3>
+        <ul>
+            <%data.forEach(function(e){%>
+                <li class="card" data-id="<%=e.id%>">
+                   
+                   <div class="item-image-container">
+                    <img class="card-img-top action" data-action="imgZoom" src="images/<%=e.image%>">
+                   </div>
+                   
+                   <div class="card-block">
+                    
+                    <div class="card-title item-title"><%=e.title%></div>
+
+                    <div class="item-certification">
+                       Cert.: <strong><%=e.certification%></strong>
+                    </div>
+                    
+                    <div class="item-size">Size: <strong><%=e.size%></strong></div>
+                    
+                    <div class="item-price" data-price="<%=e.price%>">Price: 
+                        <strong><%=utils.format.currency(e.price)%></strong>
+                    </div>
+                    
+                    <div class="item-qty form-inline">
+                        <label>Qty:</label>
+                        <input type="number" class="item-qty-input form-control" value="1"/>
+                    </div>
+
+                   </div>
+                   <span class="badge badge-pill badge-success">Added</span>
+                   <div class="action-container card-footer">
+                        <button class="btn item-action btn-primary item-add" data-action="add">Add</button>
+                        <button class="btn item-select item-remove item-action"  data-action="remove">Remove</button>
+                    </div>
+
+                </li>
+            <%});%> 
+        </ul>
+    </script>
+
+
+    <script type="tmpl" id="orderSummaryTmpl">
+            <li class="list-group-item list-group-header row">
+                      <span class="col-md-4 order-item-title">Title</span>
+                      <span class="col-md-2 order-item-qty ">Qty</span>
+                      <span class="col-md-2 order-item-price">Price</span>
+                      <span class="col-md-3 order-item-comment">Comment</span>
+                      <span class="col-md-1 order-item-action">Action</span>
+                </li>
+            <%Object.keys(orderSummary).forEach(function(j){  var e = orderSummary[j];%>
+                
+                <li class="list-group-item row" data-id="<%=e.id%>">
+                      <span class="col-md-4 order-item-title"><%=e.title%></span>
+                      <span class="col-md-2 item-qty">
+                         <input type="number" class="item-qty-input" name="qty" value="<%=e.qty%>">
+                      </span>
+                      <span class="col-md-2 order-item-price">$<%=e.price%></span>
+                      <span class="col-md-3 order-item-comment">
+                        <input type="text" class="item-comment-input" name="comment">
+                      </span>
+                      <span class="col-md-1 order-item-action">
+                        <button class="btn btn-sm remove-item">Remove</button>
+                      </span>
+                </li>
+            <%});%> 
+    </script>
+
+
+    <script type="tmpl" id="categoryNavTmpl">
+            <%obj.forEach(function(j){%>
+                <a class="nav-link action" data-action="onNav" href="#<%=j%>" data-catagory="<%=j%>"><%=utils.format.capitalize(j)%></a>
+            <%});%> 
+    </script>
+
+      <script type="tmpl" id="categorySectionContainerTmpl">
+            <%obj.forEach(function(j){%>
+                <section id="<%=j%>"></section>
+            <%});%> 
+    </script>
+
+      <script type="tmpl" id="orderTotalTmpl">
+        <h5>Order Total:</h5>
+        <span class="total-ammount">Qty: <%=count%></span>
+        <span class="total-ammount"><%=utils.format.currency(ammount)%></span> 
+
+    </script>
+
+
+      
+
+
+<script type="tmpl" id="sucsessTmpl">
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Well done!</h4>
+        <p class="mb-0">The Order is submitted!</p>
+        <button class="btn btn-lg">Start a new order</button>
+    </div>
+</script>
+
+<script type="tmpl" id="savedDataTmpl">
+    <div class="alert alert-warning page-saved-message" role="alert">
+        <button type="button" class="close close-alert">×</button>
+        <h4 class="alert-heading">Please Note!</h4>
+        <p class="mb-0">The current state of the page was restored from last action that was saved..</p>
+        <p class="mb-1">To clear the last saved information <a class="clearData" data-type="tempState" href="#">Click here!</a></p>
+        <p class="mb-1">To clear all information including offline submitted saved orders  <a href="#" class="clearData" data-type="all">Click here!</a></p>
+
+    </div>
+</script>
+
+<script type="tmpl" id="offlineOrdersTmpl">
+    <div class="card modal-box offline-orders">
+        <div class="card-header">
+        <button type="button" class="close close-modal">×</button>
+            <h1>Offline Orders</h1> 
+        </div>
+        <div class="card-block">
+            <ul>
+                <li class="list-group-item list-group-header row">
+                      <span class="col-md-8">ID</span>
+                      <span class="col-md-2">ID</span>
+                      <span class="col-md-2">Action</span>
+                </li>
+
+                <%obj.forEach(function(e, i){%>
+                    <li class="row" data-order-id="<%=i%>">
+                      <span class="col-md-8"><%=e.orderDetailString.company%></span>
+                      <span class="col-md-2"><%=i+1%></span>
+                      <span class="col-md-2"><button class="btn">Submit</button></span>
+                    </li>
+                <%});%> 
+
+            </ul>
+        </div>
+        <div class="card-footer">
+
+            <button class="btn btn-lg remove-item">Submit All</button>
+            <button class="btn btn-lg remove-item">Clear All</button>
+            <button class="btn btn-lg remove-item close-modal">Close</button>
+        </div>
+    </div>
+</script>
+
+    <div class="card modal-box large-image">
+        <div class="card-header">
+            <button type="button" class="close close-modal">×</button>
+            <h1></h1>
+        </div>
+        <div class="card-block">
+            <img>        
+        </div>
+     </div>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <!-- <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+    </body>
+</html>

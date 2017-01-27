@@ -1,0 +1,27 @@
+{
+  "name": "sales-order-app",
+  "version": "1.0.0",
+  "description": "A app where a salsmen can lookup and place orders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "the repositories url"
+  },
+  "author": "Eliazer Braun",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "postmark": "^1.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "sw-precache": "^4.3.0"
+  }
+}
