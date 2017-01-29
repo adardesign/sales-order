@@ -13,11 +13,11 @@ submitOrder = function submitOrder(req, res) {
 
 	message += '<table cellpadding="10">';
 
-	var orderSummary = orderData.orderSummary,
+	var orderItems = orderData.orderItems,
 		key;
 
-	Object.keys(orderSummary).forEach(function forEachSummary(e) {
-		key = orderSummary[e];
+	Object.keys(orderItems).forEach(function forEachSummary(e) {
+		key = orderItems[e];
 		message += "<tr> <td> Id: " + key.id + "</td><td> Qty: " + key.qty + "</td><td> Price: $" + key.price + "</td> <td> " + (key.comment ? key.comment : '') + "</td></tr>";
 	});
 

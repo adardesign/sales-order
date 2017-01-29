@@ -161,8 +161,8 @@
                         </div>
                         <span class="badge badge-pill badge-success">Added</span>
                         <div class="action-container card-footer">
-                            <button class="btn item-action btn-primary item-add" data-action="add">Add</button>
-                            <button class="btn item-select item-remove item-action" data-action="remove">Remove</button>
+                            <button class="btn btn-primary item-add action" data-action="addItem">Add</button>
+                            <button class="btn item-select item-remove action" data-action="removeItem">Remove</button>
                         </div>
 
                     </li>
@@ -179,7 +179,7 @@
                 <span class="col-md-3 order-item-comment">Comment</span>
                 <span class="col-md-1 order-item-action">Action</span>
             </li>
-            <%Object.keys(orderSummary).forEach(function(j){  var e = orderSummary[j];%>
+            <%Object.keys(orderItems).forEach(function(j){  var e = orderItems[j];%>
 
                 <li class="list-group-item row" data-id="<%=e.id%>">
                     <span class="col-md-4 order-item-title"><%=e.title%></span>
@@ -191,7 +191,7 @@
                         <input type="text" class="item-comment-input" name="comment">
                       </span>
                     <span class="col-md-1 order-item-action">
-                        <button class="btn btn-sm remove-item">Remove</button>
+                        <button class="btn btn-sm action" data-action="removeItem">Remove</button>
                       </span>
                 </li>
                 <%});%>
@@ -258,7 +258,7 @@
 
                         <%obj.forEach(function(e, i){%>
                             <li class="row" data-order-id="<%=i%>">
-                                <span class="col-md-8"><%=e.orderDetailString.company%></span>
+                                <span class="col-md-8"><%=e.orderInfotring.company%></span>
                                 <span class="col-md-2"><%=i+1%></span>
                                 <span class="col-md-2"><button class="btn btn-sm action" data-action='submitOffline'>Submit</button></span>
                             </li>

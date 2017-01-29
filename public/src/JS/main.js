@@ -1,7 +1,25 @@
 var orderSheet = {},
   openTabs = [],
-  orderDetails = {},
-  orderSummary = {};
+  orderInfo = {},
+  orderItems = {};
+
+
+
+/*
+     ///////////////////////////////////////////////////////////                                                                                                                                      
+     ///////////////////////////////////////////////////////////                                                                                                                                      
+    
+     .d8b.   .o88b. d888888b d888888b  .d88b.  d8b   db .d8888. 
+    d8' `8b d8P  Y8 `~~88~~'   `88'   .8P  Y8. 888o  88 88'  YP 
+    88ooo88 8P         88       88    88    88 88V8o 88 `8bo.   
+    88~~~88 8b         88       88    88    88 88 V8o88   `Y8b. 
+    88   88 Y8b  d8    88      .88.   `8b  d8' 88  V888 db   8D 
+    YP   YP  `Y88P'    YP    Y888888P  `Y88P'  VP   V8P `8888Y' 
+                                                                                                                                        
+     ///////////////////////////////////////////////////////////                                                                                                                                      
+     ///////////////////////////////////////////////////////////                                                                                                                                      
+    
+*/
 
 actions.init();
 
@@ -38,6 +56,25 @@ actions.add({
     modal.find("h1").text(title);
     $("body").addClass("modal-active");
   },
+  "removeItem": function removeItem(e, jThis) {
+    var listItem = jThis.closest("li")
+    id = listItem.attr("data-id");
+    $("[data-id='" + id + "']").removeClass("selected");
+    removeFromOrder(id);
+  },
+  addItem: function addItem(e, jThis) {
+    var itemEle = jThis.closest("li"),
+      id = itemEle.attr("data-id");
+    itemEle.addClass("selected");
+    addToOrder({
+      id: id,
+      price: itemEle.find(".item-price").attr("data-price"),
+      title: itemEle.find(".item-title").text(),
+      qty: itemEle.find(".item-qty-input").val()
+    });
+
+  },
+
   submitOffline: function submitOffline() {
 
   }
@@ -60,37 +97,17 @@ $(document).on('click', ".close-alert", function closeAlert(e) {
 
 
 
-$("#order-form").on("click", ".item-action", function() {
-  var jThis = $(this),
-    action = jThis.attr("data-action"),
-    itemEle = jThis.closest("li"),
-    id = itemEle.attr("data-id");
-
-  if (action === "add") {
-    itemEle.addClass("selected");
-    addToOrder({
-      id: id,
-      price: itemEle.find(".item-price").attr("data-price"),
-      title: itemEle.find(".item-title").text(),
-      qty: itemEle.find(".item-qty-input").val()
-    });
-  } else {
-    itemEle.removeClass("selected");
-    removeFromOrder(id);
-  }
-});
-
 $("#order-form").on("input", ".item-qty-input", function() {
   var jThis = $(this),
     val = jThis.val(),
     itemEle = jThis.closest("li"),
     id = itemEle.attr("data-id");
   if (isItemInOrder(id)) {
-    orderSummary[id].qty = val;
+    orderItems[id].qty = val;
     getSummaryLineEle(id).find(".item-qty-input").val(val);
     refreshOrderTotals();
   }
-  saveLocaly();
+  saveItemsLocaly();
 });
 
 $("#order-summary").on("input", ".item-qty-input", function() {
@@ -99,11 +116,11 @@ $("#order-summary").on("input", ".item-qty-input", function() {
     itemEle = jThis.closest("li"),
     id = itemEle.attr("data-id");
   if (isItemInOrder(id)) {
-    orderSummary[id].qty = val;
+    orderItems[id].qty = val;
     getItemLineEle(id).find(".item-qty-input").val(val);
     refreshOrderTotals();
   }
-  saveLocaly();
+  saveItemsLocaly();
 });
 
 $("#order-summary").on("input", ".item-comment-input", function() {
@@ -112,18 +129,12 @@ $("#order-summary").on("input", ".item-comment-input", function() {
     itemEle = jThis.closest("li"),
     id = itemEle.attr("data-id");
   if (isItemInOrder(id)) {
-    orderSummary[id].comment = val;
+    orderItems[id].comment = val;
   }
-  saveLocaly();
+  saveItemsLocaly();
 });
 
 
-
-$("#order-summary").on("click", ".remove-item", function() {
-  var id = $(this).closest("li").attr("data-id");
-  removeFromOrder(id);
-  getSummaryLineEle().removeClass("selected").find(".item-select").prop("checked", false);
-});
 
 $("#order-summary").on("input", ".item-comment-input", function() {
   var jThis = $(this),
@@ -131,9 +142,9 @@ $("#order-summary").on("input", ".item-comment-input", function() {
     itemEle = jThis.closest("li"),
     id = itemEle.attr("data-id");
   if (isItemInOrder(id)) {
-    orderSummary[id].comment = val;
+    orderItems[id].comment = val;
   }
-  saveLocaly();
+  saveItemsLocaly();
 });
 
 $("#order-information").on("submit", function onSubmitOrder(e) {
@@ -171,8 +182,8 @@ $("#order-details").on("change", ":input", function() {
   var jThis = $(this),
     name = jThis.attr("name"),
     value = jThis.val();
-  orderDetails[name] = value;
-  localStorage.setItem("orderDetails", JSON.stringify(orderDetails));
+  orderInfo[name] = value;
+  localStorage.setItem("orderInfo", JSON.stringify(orderInfo));
 });
 
 
@@ -180,6 +191,28 @@ $(document).on("click", ".toggle-offline-orders", function onToggleOfflineOrders
   e.preventDefault();
   showOfflineOrders();
 });
+
+
+/*
+    ///////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////
+    
+    .88b  d88. d88888b d888888b db   db  .d88b.  d8888b. .d8888. 
+    88'YbdP`88 88'     `~~88~~' 88   88 .8P  Y8. 88  `8D 88'  YP 
+    88  88  88 88ooooo    88    88ooo88 88    88 88   88 `8bo.   
+    88  88  88 88~~~~~    88    88~~~88 88    88 88   88   `Y8b. 
+    88  88  88 88.        88    88   88 `8b  d8' 88  .8D db   8D 
+    YP  YP  YP Y88888P    YP    YP   YP  `Y88P'  Y8888D' `8888Y' 
+    
+    ///////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////
+                                                                        
+*/
+
+saveItemsLocaly = function saveItemsLocaly() {
+  // 
+  localStorage.setItem("orderItems", JSON.stringify(orderItems));
+};
 
 showOfflineOrders = function showOfflineOrders() {
   if (!$(".offline-orders").length) {
@@ -217,23 +250,25 @@ renderSection = function renderSection(dataObj) {
 };
 
 addToOrder = function addToOrder(obj) {
-  if (!orderSummary[obj.id]) {
-    orderSummary[obj.id] = obj;
+  if (!orderItems[obj.id]) {
+    orderItems[obj.id] = obj;
     refreshOrderSummary();
     refreshOrderTotals();
   }
-  saveLocaly();
+  saveItemsLocaly();
 };
 removeFromOrder = function removeFromOrder(id) {
-  if (orderSummary[id]) {
-    delete orderSummary[id];
+  if (orderItems[id]) {
+    delete orderItems[id];
+    saveItemsLocaly();
     refreshOrderSummary();
     refreshOrderTotals();
+
   }
 
 };
 isItemInOrder = function isItemInOrder(id) {
-  return orderSummary[id] ? true : false;
+  return orderItems[id] ? true : false;
 };
 
 refreshOrderSummary = function refreshOrderSummary() {
@@ -245,15 +280,15 @@ calculateOrderTotals = function calculateOrderTotals() {
   var ammount = 0,
     count = 0,
     totals = {};
-  $.each(orderSummary, function(i, e) {
+  $.each(orderItems, function(i, e) {
     ammount += e.price * e.qty;
     count += (+e.qty);
   });
   totals.ammount = ammount;
   totals.count = count;
-  orderDetails.ammount = totals.ammount;
-  orderDetails.count = totals.count;
-  localStorage.setItem("orderDetails", JSON.stringify(orderDetails));
+  orderInfo.ammount = totals.ammount;
+  orderInfo.count = totals.count;
+  localStorage.setItem("orderInfo", JSON.stringify(orderInfo));
   return totals;
 };
 
@@ -261,20 +296,14 @@ refreshOrderTotals = function refreshOrderTotal() {
   $("#order-total").html(tmpl("orderTotalTmpl", calculateOrderTotals()));
 
 };
-saveLocaly = function saveLocaly() {
-  // 
-  localStorage.setItem("orderSummery", JSON.stringify(orderSummary));
-};
 
 submitOrder = function submitOrder() {
   var dfd = $.Deferred();
-  orderSummaryArr = $.map(orderSummary, function(value, index) {
-    return value;
-  });
+
 
   var orderPayload = {
-    orderSummary: orderSummary,
-    orderDetails: orderDetails
+    orderItems: orderItems,
+    orderInfo: orderInfo
   }
 
   orderPayload = JSON.stringify(orderPayload)
@@ -310,8 +339,8 @@ submitOrder = function submitOrder() {
 
 
 clearTempSavedData = function clearTempSavedData() {
-  localStorage.removeItem("orderSummery");
-  localStorage.removeItem("orderDetails");
+  localStorage.removeItem("orderItems");
+  localStorage.removeItem("orderInfo");
   localStorage.removeItem("openTabs");
 }
 
@@ -321,8 +350,8 @@ submitOffline = function() {
     getOfflineOrders = localStorage.getItem("offline-orders");
   getOfflineOrders = getOfflineOrders ? JSON.parse(getOfflineOrders) : [];
   getOfflineOrders.push({
-    orderSummaryString: orderSummary,
-    orderDetailString: orderDetails
+    orderItems: orderItems,
+    orderInfo: orderInfo
   });
 
 
@@ -377,16 +406,16 @@ $.ajax({
 loadSavedState = function loadSavedState() {
 
   // get storaed items
-  var storedItems = localStorage.getItem("orderSummery"),
+  var storedItems = localStorage.getItem("orderItems"),
     storedOpenTabs = localStorage.getItem("openTabs"),
-    storedOrderDetails = localStorage.getItem("orderDetails"),
+    storedorderInfo = localStorage.getItem("orderInfo"),
     offlineOrder,
     itemLineEle,
     itemObj,
     summaryLineEle;
 
 
-  if (storedItems || storedOpenTabs || storedOrderDetails) {
+  if (storedItems || storedOpenTabs || storedorderInfo) {
     $("body").append($("#savedDataTmpl").html());
   }
 
@@ -414,17 +443,17 @@ loadSavedState = function loadSavedState() {
       });
     }, 3000);
 
-    localStorage.setItem("orderDetails", JSON.stringify(orderDetails));
+    localStorage.setItem("orderInfo", JSON.stringify(orderInfo));
   }
 
-  if (storedOrderDetails) {
-    storedOrderDetails = JSON.parse(storedOrderDetails);
-    orderDetailsKeys = Object.keys(storedOrderDetails);
+  if (storedorderInfo) {
+    storedorderInfo = JSON.parse(storedorderInfo);
+    orderInfoKeys = Object.keys(storedorderInfo);
 
-    orderDetailsKeys.forEach(function(e) {
-      $("#order-details").find("[name='" + e + "']").val(storedOrderDetails[e]);
+    orderInfoKeys.forEach(function(e) {
+      $("#order-details").find("[name='" + e + "']").val(storedorderInfo[e]);
     });
-    orderDetails = storedOrderDetails;
+    orderInfo = storedorderInfo;
   }
 
   // Handle offlineOrder
