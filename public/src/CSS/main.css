@@ -82,12 +82,15 @@
           border-bottom: 2px solid #000;
           background-color: #f4f4f4;
       }
-      #order-summary .item-qty-input {
+      .item-qty-input {
           width: 40%!important;
           text-align: center;
       }
       #order-summary .item-action {
           text-align: right;
+      }
+      #order-total .row{
+        border-top: 2px solid #999;
       }
       .closed {
           background: #eee;

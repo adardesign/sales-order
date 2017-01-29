@@ -74,10 +74,46 @@ actions.add({
     });
 
   },
+  showOffline: function(e, jThis) {
+    var orderEle = jThis.closest("li"),
+      orderData = orderEle.attr("data-order-obj") || '{}';
 
-  submitOffline: function submitOffline() {
+    alert(orderData);
+  },
 
+  submitOffline: function submitOffline(e, jThis) {
+    var orderEle = jThis.closest("li"),
+      orderData = orderEle.attr("data-order-obj") || '{}',
+      id = orderEle.attr("data-order-id");
+    orderData = JSON.parse(orderData);
+    submitOrder({
+      order: orderData,
+      type: "offline"
+    }).then(function onSubmitOffline(e) {
+      orderEle.fadeOut();
+      // save localStorage
+    });
+  },
+  submitAllOffline: function submitAllOffline() {
+    $(".offline-orders").find(".submitOfflineOrder").trigger("click");
+  },
+  clearData: function clearData(e, jThis) {
+    var type = jThis.attr("data-type");
+    if (type === "tempState") {
+      clearTempSavedData();
+    }
+    if (type === "offlineOrders") {
+      clearOfflineOrders();
+    }
+    if (type === "all") {
+      clearOfflineOrders();
+      clearTempSavedData();
+
+    }
+    location.reload();
   }
+
+
 });
 
 
@@ -152,27 +188,19 @@ $("#order-information").on("submit", function onSubmitOrder(e) {
   // validate...
 
   if (navigator.onLine === false) {
-    submitFallbackOffline();
+    submitOffline();
     return;
   }
-  submitOrder();
+  submitOrder({
+    order: {
+      orderItems: orderItems,
+      orderInfo: orderInfo
+    },
+    type: "regular"
+  });
 });
 
 
-
-$(document).on("click", ".clearData", function clearData(e) {
-  e.preventDefault();
-
-
-  var jThis = $(this),
-    type = jThis.attr("data-type");
-  if (type === "all") {
-    //clearTempSavedData();
-  } else {
-    clearTempSavedData();
-  }
-  location.reload();
-});
 
 // toggle-offline-orders
 
@@ -297,13 +325,13 @@ refreshOrderTotals = function refreshOrderTotal() {
 
 };
 
-submitOrder = function submitOrder() {
+submitOrder = function submitOrder(data) {
   var dfd = $.Deferred();
 
 
   var orderPayload = {
-    orderItems: orderItems,
-    orderInfo: orderInfo
+    orderItems: data.order.orderItems,
+    orderInfo: data.order.orderInfo
   }
 
   orderPayload = JSON.stringify(orderPayload)
@@ -316,18 +344,30 @@ submitOrder = function submitOrder() {
     type: "POST"
   }).done(function onSubmit(data) {
     dfd.resolve(data);
-  }).done(function orderSucsess() {
-    $(".submit-order").before($("#sucsessTmpl").html());
-    $(".submit-order").remove();
-    clearTempSavedData();
+  }).then(function orderSucsess() {
+    if (data.type === "regular") {
+      $(".submit-order").before($("#sucsessTmpl").html());
+      $(".submit-order").remove();
+      clearTempSavedData();
+    }
   }).fail(function orderFail(err) {
     // 
     if (navigator.onLine) {
-      notify.add({
-        html: "<p>You appear to be online, And it still didn't submit, somthing must be worng...</p>",
-        type: "error alert-danger order-fail sticky",
-        autoClose: false
-      });
+      if (data.type === "regular") {
+        notify.add({
+          html: "<p>You appear to be online, And it still didn't submit, somthing must be worng... </br> However your order is saved offline</p>",
+          type: "error alert-danger order-fail sticky",
+          autoClose: false
+        });
+        submitOffline();
+      } else {
+        notify.add({
+          html: "<p>Hmmmm. something is wrong..</p>",
+          type: "error alert-danger order-fail sticky",
+          autoClose: false
+        });
+
+      }
     } else {
       submitOffline();
     }
@@ -342,6 +382,11 @@ clearTempSavedData = function clearTempSavedData() {
   localStorage.removeItem("orderItems");
   localStorage.removeItem("orderInfo");
   localStorage.removeItem("openTabs");
+}
+
+clearOfflineOrders = function clearOfflineOrders() {
+  localStorage.removeItem("offline-order-count");
+  localStorage.removeItem("offline-orders");
 }
 
 

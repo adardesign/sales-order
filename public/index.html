@@ -33,8 +33,7 @@
         </section>
 
         <section id="order-total">
-            <h2 class="panel-heading"><span class="panel-title">Order Total</span></h2>
-            <div class="order-total-container">
+            <div class="order-total-container"></div>
         </section>
 
         <section class="panel panel-primary" id="order-details">
@@ -213,10 +212,12 @@
         </script>
 
         <script type="tmpl" id="orderTotalTmpl">
-            <h5>Order Total:</h5>
-            <span class="total-ammount">Qty: <%=count%></span>
-            <span class="total-ammount"><%=utils.format.currency(ammount)%></span>
-
+            <div class="row footer">
+                <span class="col-md-4">Order Total:</span> 
+                <span class="col-md-2 total-ammount"><input class="item-qty-input" readonly value="<%=count%>"/></span>
+                <span class="col-md-2 total-ammount"><%=utils.format.currency(ammount)%></span>
+                <span class="col-md-3"></span> 
+            </div>
         </script>
 
 
@@ -236,8 +237,8 @@
                 <button type="button" class="close close-alert">×</button>
                 <h4 class="alert-heading">Please Note!</h4>
                 <p class="mb-0">The current state of the page was restored from last action that was saved..</p>
-                <p class="mb-1">To clear the last saved information <a class="clearData" data-type="tempState" href="#">Click here!</a></p>
-                <p class="mb-1">To clear all information including offline submitted saved orders <a href="#" class="clearData" data-type="all">Click here!</a></p>
+                <p class="mb-1">To clear the last saved information <a class="clearData action" data-action="clearData" data-type="tempState"  href="#">Click here!</a></p>
+                <p class="mb-1">To clear all information including offline submitted saved orders <a href="#" class="clearData action" data-action="clearData" data-type="all">Click here!</a></p>
 
             </div>
         </script>
@@ -251,16 +252,19 @@
                 <div class="card-block">
                     <ul>
                         <li class="list-group-item list-group-header row">
-                            <span class="col-md-8">ID</span>
+                            <span class="col-md-6">ID</span>
                             <span class="col-md-2">ID</span>
-                            <span class="col-md-2">Action</span>
+                            <span class="col-md-4">Action</span>
                         </li>
 
                         <%obj.forEach(function(e, i){%>
-                            <li class="row" data-order-id="<%=i%>">
-                                <span class="col-md-8"><%=e.orderInfotring.company%></span>
+                            <li class="row" data-order-id="<%=i%>" data-order-obj='<%=JSON.stringify(e)%>'>
+                                <span class="col-md-6"><%=e.orderInfo.company%></span>
                                 <span class="col-md-2"><%=i+1%></span>
-                                <span class="col-md-2"><button class="btn btn-sm action" data-action='submitOffline'>Submit</button></span>
+                                <span class="col-md-4">
+                                    <button class="btn btn-primary btn-sm submitOfflineOrder action" data-action='submitOffline'>Submit</button>
+                                    <button class="btn btn-sm action" data-action='showOffline'>Show</button>
+                                </span>
                             </li>
                             <%});%>
 
@@ -269,7 +273,7 @@
                 <div class="card-footer">
 
                     <button class="btn btn-lg btn-primary action" data-action="submitAllOffline">Submit All</button>
-                    <button class="btn btn-lg remove-item action" data-action="clearAllOffline">Clear All</button>
+                    <button class="btn btn-lg remove-item action disabled" data-type="offlineOrders" data-action="clearData">Clear All</button>
                 </div>
             </div>
         </script>
