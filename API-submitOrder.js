@@ -24,11 +24,11 @@ submitOrder = function submitOrder(req, res) {
 	message += '</table>';
 
 
-	var orderDetails = orderData.orderDetails;
+	var orderInfo = orderData.orderInfo;
 
 	message += "<ul>";
-	Object.keys(orderDetails).forEach(function forEachDetail(e) {
-		key = orderDetails[e];
+	Object.keys(orderInfo).forEach(function forEachDetail(e) {
+		key = orderInfo[e];
 		message += "<li>" + e + " : " + key + "</li>";
 	});
 	message += "</ul>";
