@@ -91,11 +91,11 @@ actions.add({
       type: "offline"
     }).then(function onSubmitOffline(e) {
       orderEle.fadeOut();
-      // save localStorage
     });
   },
   submitAllOffline: function submitAllOffline() {
     $(".offline-orders").find(".submitOfflineOrder").trigger("click");
+    clearOfflineOrders();
   },
   clearData: function clearData(e, jThis) {
     var type = jThis.attr("data-type");
