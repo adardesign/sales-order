@@ -115,58 +115,62 @@
         </div>
 
 
-
-        <script src="src/JS/jquery-3.1.1.min.js"></script>
-        <script src="src/JS/microTmpl.js"></script>
-        <script src="src/JS/utils.js"></script>
-        <script src="src/JS/actionBind.js"></script>
-        <script src="src/JS/notify.js"></script>
-        <script src="src/JS/main.js"></script>
-        <script src="src/JS/sw-registar.js"></script>
+         <script src="src/JS/jquery-3.1.1.min.js"></script>
+         <script src="src/JS/microTmpl.js"></script>
+         <script src="src/JS/utils.js"></script>
+         <script src="src/JS/actionBind.js"></script>
+         <script src="src/JS/notify.js"></script>
+         <script src="src/JS/main.js"></script>
+         <!-- <script src="src/JS/sw-registar.js"></script> -->
 
         <script type="tmpl" id="catagoryTmpl">
             <h3>
                 <%=utils.format.capitalize(catagory)%>
             </h3>
-            <ul>
-                <%data.forEach(function(e){%>
-                    <li class="card" data-id="<%=e.id%>">
+                <%data.forEach(function(d){%>
+                    <section>
+                    <h4><%=d.brand%></h4>
+                        <ul>
+                            <%d.items.forEach(function(e){%>
+                            <li class="card" data-id="<%=e.id%>">
+                                <div class="item-image-container">
+                                    <img class="card-img-top action" data-action="imgZoom" src="/itemImages/<%=catagory%>/<%=e.image%>">
+                                </div>
 
-                        <div class="item-image-container">
-                            <img class="card-img-top action" data-action="imgZoom" src="images/<%=e.image%>">
-                        </div>
+                                <div class="card-block">
 
-                        <div class="card-block">
+                                    <div class="card-title item-title">
+                                        <%=e.description%>
+                                    </div>
 
-                            <div class="card-title item-title">
-                                <%=e.title%>
-                            </div>
+                                    <div class="item-certification">
+                                        Cert.: <strong><%=e.kashrut%></strong>
+                                    </div>
 
-                            <div class="item-certification">
-                                Cert.: <strong><%=e.certification%></strong>
-                            </div>
+                                    <div class="item-size">Size: <strong><%=e.size%></strong></div>
 
-                            <div class="item-size">Size: <strong><%=e.size%></strong></div>
+                                    <div class="item-price" data-price="<%=e.price%>">Price:
+                                        <strong><%=utils.format.currency(e.price)%></strong>
+                                    </div>
 
-                            <div class="item-price" data-price="<%=e.price%>">Price:
-                                <strong><%=utils.format.currency(e.price)%></strong>
-                            </div>
+                                    <div class="item-qty form-inline">
+                                        <label>Qty:</label>
+                                        <input type="number" class="item-qty-input form-control" value="1" />
+                                    </div>
 
-                            <div class="item-qty form-inline">
-                                <label>Qty:</label>
-                                <input type="number" class="item-qty-input form-control" value="1" />
-                            </div>
+                                </div>
+                                <span class="badge badge-pill badge-success">Added</span>
+                                <div class="action-container card-footer">
+                                    <button class="btn btn-primary item-add action" data-action="addItem">Add</button>
+                                    <button class="btn item-select item-remove action" data-action="removeItem">Remove</button>
+                                </div>
 
-                        </div>
-                        <span class="badge badge-pill badge-success">Added</span>
-                        <div class="action-container card-footer">
-                            <button class="btn btn-primary item-add action" data-action="addItem">Add</button>
-                            <button class="btn item-select item-remove action" data-action="removeItem">Remove</button>
-                        </div>
-
-                    </li>
+                            </li>
                     <%});%>
-            </ul>
+                </ul>
+                </section>
+            <%});%>
+
         </script>
 
 
