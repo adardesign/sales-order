@@ -140,18 +140,20 @@
                                         <%=e.description%>
                                     </div>
 
+                                    <div class="item-price" data-price="<%=e.price%>">Price:
+                                        <strong><%=utils.format.currency(e.price)%></strong>
+                                    </div>
+                                  
+                                    <div class="item-price-piece">
+                                    ea:<strong><%=utils.format.currency(e["price-per-piece"])%></strong>
+                                    cs:<strong><%=e["pieces-per-case"]%></strong>
+                                    </div>
+                                  
                                     <div class="item-certification">
                                         Cert:<strong><%=e.kashrut%></strong>
                                         Size:<strong><%=e.size%></strong>
                                     </div>
 
-                                    <div class="item-price" data-price="<%=e.price%>">Price:
-                                        <strong><%=utils.format.currency(e.price)%></strong>
-                                    </div>
-                                    <div class="item-price-piece">
-                                    ea:<strong><%=utils.format.currency(e["price-per-piece"])%></strong>
-                                    case:<strong><%=e["pieces-per-case"]%></strong>
-                                    </div>
 
                                     <div class="item-qty form-inline">
                                         <label>Qty:</label>
