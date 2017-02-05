@@ -1,61 +1,172 @@
 [{
-  "id": "Tea0",
-  "title": "Tea 0",
-  "category": "tea",
-  "price": 41.6,
-  "certification": "OU",
-  "size": "24oz",
-  "image": "teaSample.jpg",
-  "largeImage": "/data/images/10-24102A.jpg",
-  "description": ""
+  "brand": "Twining",
+  "id": "TWI",
+  "items": [{
+    "id": "TW10",
+    "image": "Ahmad-Fruit-Tea-Apricot-6_20-tb.png",
+    "description": "Twining-Fruit-Tea Apricot 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "TW10",
+    "image": "Ahmad-Fruit-Tea-Apricot-6_20-tb.png",
+    "description": "Twining-Fruit-Tea Apricot 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }]
 }, {
-  "id": "Tea1",
-  "title": "Tea 1",
-  "category": "tea",
-  "price": 45.9,
-  "certification": "OU",
-  "size": "24oz",
-  "image": "teaSample.jpg",
-  "largeImage": "/data/images/10-25058A.jpg",
-  "description": ""
-}, {
-  "id": "Tea2",
-  "title": "Tea 2",
-  "category": "tea",
-  "price": 48,
-  "certification": "OU",
-  "size": "24oz",
-  "image": "teaSample.jpg",
-  "largeImage": "/data/images/10-24101A.jpg",
-  "description": ""
-}, {
-  "id": "Tea3",
-  "title": "Tea 3",
-  "category": "tea",
-  "price": 36.5,
-  "certification": "OU",
-  "size": "24oz",
-  "image": "teaSample.jpg",
-  "largeImage": "/data/images/10-24098A.jpg",
-  "description": ""
-}, {
-  "id": "Tea4",
-  "title": "Tea 4",
-  "category": "tea",
-  "price": 84.85,
-  "certification": "OU",
-  "size": "24oz",
-  "image": "teaSample.jpg",
-  "largeImage": "/data/images/10-24097A.jpg",
-  "description": ""
-}, {
-  "id": "Tea5",
-  "title": "Tea 5",
-  "category": "tea",
-  "price": 64.2,
-  "certification": "OU",
-  "size": "24oz",
-  "image": "teaSample.jpg",
-  "largeImage": "/data/images/10-24099A.jpg",
-  "description": ""
+  "brand": "Ahmad",
+  "title": "Ahmad",
+  "id": "AHM",
+  "items": [{
+    "id": "AHM06",
+    "image": "Ahmad-Fruit-Tea-Apricot-6_20-tb.png",
+    "description": "Ahmad-Fruit-Tea Apricot 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM07",
+    "image": "Ahmad-Fruit-Tea-Apricot-6_20-tb.png",
+    "description": "Ahmad Fruit Tea Raspberry 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM08",
+    "image": "Ahmad-Fruit-Tea-Strawberry-6_20-tb.png",
+    "description": "Ahmad Fruit Tea Strawberry 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM09",
+    "image": "Ahmad-Fruit-Tea-Blackcurrant-6_20-tb.png",
+    "description": "Ahmad Fruit Tea Blackcurrant 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM10",
+    "image": "Ahmad-Fruit-Tea-Peach-Passion-6_20-tb.jpg",
+    "description": "Ahmad Fruit Tea Peach/Passion 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM11",
+    "image": "Ahmad-Fruit-Tea-Mango-Magic-6_20-tb.png",
+    "description": "Ahmad Fruit Tea Mango Magic 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM111",
+    "image": "Ahmad-Fruit-Tea-Vanilla-6_20-tb.png",
+    "description": "Ahmad Fruit Tea Vanilla 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM12",
+    "image": "Ahmad-Green-Tea-6_20-tb.png",
+    "description": "Ahmad Green Tea 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM121",
+    "image": "Ahmad-Green-Jasmine-Tea-6_20-tb.png",
+    "description": "Ahmad Green Jasmine Tea 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM122",
+    "image": "Ahmad-Green-Lemon-Vitality-Tea-6_20-tb.png",
+    "description": "Ahmad Green Lemon Vitality Tea 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM123",
+    "image": "Ahmad-Mint-Mystique-Green-Tea-6_20 tb.png",
+    "description": "Ahmad Mint Mystique Green Tea 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM125",
+    "image": "Ahmad-Green-Selection-Tea-6_20tb.png",
+    "description": "Ahmad Green/Selection Tea 6/20tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM13",
+    "image": "Ahmad-Apple-Fruit-Tea-6_20-tb.png",
+    "description": "Ahmad Apple Fruit Tea 6/20 tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM14",
+    "image": "Ahmad-Lemon-Lime-6_20tb.jpg",
+    "description": "Ahmad Lemon/Lime 6/20tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM15",
+    "image": "ceylon-tea-20tb.jpg",
+    "description": "Ahmad Ceylon 6/20tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }, {
+    "id": "AHM16",
+    "image": "Ahmad-Fruit-Tea-Selection-6_20tb.png",
+    "description": "Ahmad Fruit-Tea Selection 6/20tb",
+    "size": "20tb",
+    "pieces-per-case": 6,
+    "price": "13.20",
+    "price-per-piece": "2.20",
+    "kashrut": "KF"
+  }]
 }]
