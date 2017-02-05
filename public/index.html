@@ -124,10 +124,7 @@
          <!-- <script src="src/JS/sw-registar.js"></script> -->
 
         <script type="tmpl" id="catagoryTmpl">
-            <h3>
-                <%=utils.format.capitalize(catagory)%>
-            </h3>
-                <%data.forEach(function(d){%>
+           <%data.forEach(function(d){%>
                     <section>
                     <h4><%=d.brand%></h4>
                         <ul>
@@ -144,13 +141,16 @@
                                     </div>
 
                                     <div class="item-certification">
-                                        Cert.: <strong><%=e.kashrut%></strong>
+                                        Cert:<strong><%=e.kashrut%></strong>
+                                        Size:<strong><%=e.size%></strong>
                                     </div>
-
-                                    <div class="item-size">Size: <strong><%=e.size%></strong></div>
 
                                     <div class="item-price" data-price="<%=e.price%>">Price:
                                         <strong><%=utils.format.currency(e.price)%></strong>
+                                    </div>
+                                    <div class="item-price-piece">
+                                    PPP:<strong><%=utils.format.currency(e["price-per-piece"])%></strong>
+                                    PPC:<strong><%=e["pieces-per-case"]%></strong>
                                     </div>
 
                                     <div class="item-qty form-inline">
