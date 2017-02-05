@@ -425,18 +425,18 @@ setTimeout(function setDate() {
   $(".order-date :input").val(new Date().toDateInputValue()).trigger("input");
 }, 1000);
 
-fetch('data/categories.json', {
-  method: 'get'
-}).then(function(response) {
-  var contentType = response.headers.get("content-type");
-  if (contentType && contentType.indexOf("application/json") !== -1) {
-    return response.json().then(function(json) {
-      // process your JSON further
-    });
-  } else {
-    console.log("Oops, we haven't got JSON!");
-  }
-});
+// fetch('data/categories.json', {
+//   method: 'get'
+// }).then(function(response) {
+//   var contentType = response.headers.get("content-type");
+//   if (contentType && contentType.indexOf("application/json") !== -1) {
+//     return response.json().then(function(json) {
+//       // process your JSON further
+//     });
+//   } else {
+//     console.log("Oops, we haven't got JSON!");
+//   }
+// });
 
 
 $.ajax({
