@@ -3,9 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>sales-order</title>
+      <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
   <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div id="app">
+      
+      
+      <sales-order></sales-order>
+
+    </div>
+
+
+
+
+  <template id="salesOrder">
+    <div>
+      <navigation></navigation>
+      <categories></categories>
+    </div>
+  </template>
+
+
+
+  <template id="navigation">
+      <ul>
+        <li v-for="cat in $parent.productData">
+          {{cat.name}}
+        </li>
+      </ul>  
+  </template>
+
+
+   <template id="categories">
+      <div>
+       <section v-for="cat in $parent.productData">
+          <div v-for="group in cat['groups']">
+              <h3>{{group.brand}}</h3>
+              <div v-for="brand in group">
+                <div v-for="item in brand">
+                    {{item.id}}
+                    {{item.img}}
+                    {{item.price}}
+                </div>
+              </div>
+          </div>
+       </section>
+       </div>
+  </template>
+
+
+
+    <script type="text/javascript" src="node_modules/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="node_modules/vue-resource/dist/vue-resource.js"></script>
+    <script type="text/javascript" src="/src/main.js"></script>
   </body>
 </html>

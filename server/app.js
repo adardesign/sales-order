@@ -7,7 +7,7 @@ app.set('port', (process.env.PORT || 5000));
 app.use(bodyParser.urlencoded({
 	extended: false
 }));
-app.use(express.static(__dirname + '/../client'));
+app.use(express.static(__dirname + '/../client/'));
 
 app.use(require('./routes'));
 
