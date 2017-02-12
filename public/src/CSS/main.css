@@ -42,6 +42,8 @@
           padding: 5px;
           text-align: center;
           background: #fff;
+          height: 200px;
+          overflow: hidden;
       }
       #order-form .item-title{
         font-weight: bold;
