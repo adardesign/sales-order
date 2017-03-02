@@ -1,0 +1,143 @@
+[{
+    "category": "Coffee",
+    "id": "COFF004",
+    "image": "COFF004.jpg",
+    "description": "Aladin Turkish Coffee-bags 24/200 gr",
+    "size": "200 grm",
+    "pieces-per-case": "24",
+    "price": "120.00",
+    "price-per-piece": "$5.00",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF0021",
+    "image": "COFF0021.jpg",
+    "description": "Elite Israeli Instant Coffee 12/7 oz",
+    "size": "7 oz",
+    "pieces-per-case": "12",
+    "price": "78.00",
+    "price-per-piece": "$6.50",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF10",
+    "image": "COFF10.jpg",
+    "description": "Elite Turkish Coffee 50/100 gr(red)",
+    "size": "100 gr",
+    "pieces-per-case": "50",
+    "price": "128.00",
+    "price-per-piece": "$2.56",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF3",
+    "image": "COFF3.jpg",
+    "description": "Elite Turkish Coffee Tins 24/7 oz",
+    "size": "7 oz",
+    "pieces-per-case": "24",
+    "price": "120.00",
+    "price-per-piece": "$5.00",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF2",
+    "image": "COFF2.jpg",
+    "description": "Elite Turkish Coffee with Cardamon 50/100 gram (green)",
+    "size": "100 gr",
+    "pieces-per-case": "50",
+    "price": "128.00",
+    "price-per-piece": "$2.56",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF96",
+    "image": "COFF96.jpg",
+    "description": "JACOBS Instant Coffee 6/100gr (Cronat Gold)",
+    "size": "100 grm",
+    "pieces-per-case": "6",
+    "price": "22.50",
+    "price-per-piece": "$3.75",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF961",
+    "image": "COFF961.jpg",
+    "description": "JACOBS Instant Coffee 6/100gr (Cronat Green)",
+    "size": "100 grm",
+    "pieces-per-case": "6",
+    "price": "25.50",
+    "price-per-piece": "$4.25",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF95",
+    "image": "COFF95.jpg",
+    "description": "JACOBS Instant Coffee 6/200gr (Cronat Gold)",
+    "size": "200 grm",
+    "pieces-per-case": "6",
+    "price": "44.00",
+    "price-per-piece": "$7.33",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF951",
+    "image": "COFF951.jpg",
+    "description": "JACOBS Instant Coffee 6/200gr (Cronat Green)",
+    "size": "200 grm",
+    "pieces-per-case": "6",
+    "price": "48.00",
+    "price-per-piece": "$8.00",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF71",
+    "image": "COFF71.jpg",
+    "description": "Nescafe Instant Coffee 6/200gm",
+    "size": "200 grm",
+    "pieces-per-case": "6",
+    "price": "52.00",
+    "price-per-piece": "$8.67",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "CHO04",
+    "image": "",
+    "description": "Nesquik Choc. Drink Mix 6/16oz-KFP",
+    "size": "16 oz",
+    "pieces-per-case": "6",
+    "price": "27.00",
+    "price-per-piece": "$4.50",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF511",
+    "image": "COFF511.jpg",
+    "description": "Platinum Coffee (NEW STYLE) 6/7.05 oz",
+    "size": "7.05 oz",
+    "pieces-per-case": "6",
+    "price": "63.00",
+    "price-per-piece": "$10.50",
+    "kashrut": ""
+  },
+  {
+    "category": "Coffee",
+    "id": "COFF90",
+    "image": "COFF90.jpg",
+    "description": "Venizelos Coffee 24/16oz",
+    "size": "16 oz",
+    "pieces-per-case": "24",
+    "price": "132.00",
+    "price-per-piece": "$5.50",
+    "kashrut": ""
+  }]

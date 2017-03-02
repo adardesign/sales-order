@@ -19,6 +19,7 @@
       #order-form li {
           border: 1px solid #ccc;
           width: 20%;
+          height: 400px;
           float: left;
           position: relative;
           list-style: none;
@@ -42,7 +43,7 @@
           padding: 5px;
           text-align: center;
           background: #fff;
-          height: 200px;
+          height: 150px;
           overflow: hidden;
       }
       #order-form .item-title{

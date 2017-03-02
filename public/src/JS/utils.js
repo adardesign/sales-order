@@ -35,6 +35,9 @@ utils.format = {
       return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
   },
+  replaceUnderscore : function replaceUnderscore (str, replacement) {
+    return str.replace(/\_/ig, replacement?replacement : " ");
+  },
   uppercase: function(str) {
     return str.toUpperCase();
   },

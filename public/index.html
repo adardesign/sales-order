@@ -124,11 +124,11 @@
          <!-- <script src="src/JS/sw-registar.js"></script> -->
 
         <script type="tmpl" id="catagoryTmpl">
-           <%data.forEach(function(d){%>
                     <section>
-                    <h4><%=d.brand%></h4>
-                        <ul>
-                            <%d.items.forEach(function(e){%>
+                    <h4><%=catagory.replace(/\_/ig, " ")%></h4>
+                    <ul>
+                    <%data.forEach(function(e){%>
+                       
                             <li class="card" data-id="<%=e.id%>">
                                 <div class="item-image-container">
                                     <img class="card-img-top action" data-action="imgZoom" src="/itemImages/<%=catagory%>/<%=e.image%>">
@@ -171,7 +171,6 @@
                     <%});%>
                 </ul>
                 </section>
-            <%});%>
 
         </script>
 
@@ -206,7 +205,7 @@
         <script type="tmpl" id="categoryNavTmpl">
             <%obj.forEach(function(j){%>
                 <a class="nav-link action" data-action="onNav" href="#<%=j%>" data-catagory="<%=j%>">
-                    <%=utils.format.capitalize(j)%>
+                    <%=utils.format.capitalize(utils.format.replaceUnderscore(j))%>
                 </a>
                 <%});%>
         </script>
@@ -293,6 +292,7 @@
                 <img>
             </div>
         </div>
+
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

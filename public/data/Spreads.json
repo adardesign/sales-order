@@ -1,0 +1,110 @@
+[{
+    "category": "Spreads",
+    "id": "MILK08",
+    "image": "MILK08.jpg",
+    "description": "Hashachar Baking Chocolate 12/400 gm",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "37.50",
+    "price-per-piece": "$3.13",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK091",
+    "image": "MILK091.jpg",
+    "description": "Hashachar Milk Choc Spread 24/500gm Passover",
+    "size": "",
+    "pieces-per-case": "24",
+    "price": "61.25",
+    "price-per-piece": "$2.55",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK09",
+    "image": "MILK091.jpg",
+    "description": "Hashachar Milk Choclate Spread 24/500 gm",
+    "size": "",
+    "pieces-per-case": "24",
+    "price": "61.25",
+    "price-per-piece": "$2.55",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK101",
+    "image": "MILK10.jpg",
+    "description": "Hashachar Parve Choc Spread 24/500gm Passover",
+    "size": "",
+    "pieces-per-case": "24",
+    "price": "61.25",
+    "price-per-piece": "$2.55",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK10",
+    "image": "MILK10.jpg",
+    "description": "Hashachar Parve Choclate Spread 24/500 gm",
+    "size": "",
+    "pieces-per-case": "24",
+    "price": "61.25",
+    "price-per-piece": "$2.55",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK12",
+    "image": "MILK12.jpg",
+    "description": "Nutella 12/26.5 oz",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "67.20",
+    "price-per-piece": "$5.60",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK111",
+    "image": "MILK111.jpg",
+    "description": "Nutella 15/13 oz",
+    "size": "",
+    "pieces-per-case": "15",
+    "price": "42.00",
+    "price-per-piece": "$2.80",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK120",
+    "image": "MILK120",
+    "description": "Nutella Shipper 3 X 15  /13 oz=45 pcs",
+    "size": "",
+    "pieces-per-case": "45",
+    "price": "126.00",
+    "price-per-piece": "$2.80",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK01",
+    "image": "MILK01.gif",
+    "description": "Palermo Hazelnut Chocolate Spread 12/12.3 oz",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "27.00",
+    "price-per-piece": "$2.25",
+    "kashrut": ""
+  },
+  {
+    "category": "Spreads",
+    "id": "MILK02",
+    "image": "MILK02.gif",
+    "description": "Palermo Swirl  Hazelnut Chocolate Spread 12/12.3 oz",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "27.00",
+    "price-per-piece": "$2.25",
+    "kashrut": ""
+  }]

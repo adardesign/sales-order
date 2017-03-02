@@ -1,0 +1,143 @@
+[{
+    "category": "Salt_and_Sugar",
+    "id": "SALT05",
+    "image": "SALT05.jpg",
+    "description": "Lior KitchenSalt Coarse\" 12/1kg",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "15.00",
+    "price-per-piece": "$1.25",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT04",
+    "image": "SALT04.jpg",
+    "description": "Lior Table Salt Fine\" 12/1kg(blue)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "15.00",
+    "price-per-piece": "$1.25",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT03",
+    "image": "SALT03.jpg",
+    "description": "Lior Table Salt Fine\" 15/500g",
+    "size": "",
+    "pieces-per-case": "15",
+    "price": "18.00",
+    "price-per-piece": "$1.20",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT031",
+    "image": "SALT031.jpg",
+    "description": "Lior Table Salt Fine\" 18/250g",
+    "size": "",
+    "pieces-per-case": "18",
+    "price": "15.00",
+    "price-per-piece": "$0.83",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT07",
+    "image": "",
+    "description": "Oz COARSE Salt 12/1kg bag (green)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "10.20",
+    "price-per-piece": "$0.85",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT23",
+    "image": "",
+    "description": "Oz COARSE Salt Plastic Jar 20% FREE 12/1.2 kg (green)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "21.00",
+    "price-per-piece": "$1.75",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT13",
+    "image": "",
+    "description": "Oz COARSE Salt Shaker 12/600gr (green)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "12.50",
+    "price-per-piece": "$1.04",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT22",
+    "image": "SALT12.jpg",
+    "description": "Oz FINE Salt Plastic Jar 20% FREE 12/1.2 kg (blue)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "21.00",
+    "price-per-piece": "$1.75",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT10",
+    "image": "SALT10.jpg",
+    "description": "Oz FINE Salt Shaker 12/300gr (blue)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "10.50",
+    "price-per-piece": "$0.88",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT12",
+    "image": "SALT12.jpg",
+    "description": "Oz FINE Salt Shaker 12/600gr (blue)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "12.50",
+    "price-per-piece": "$1.04",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SALT06",
+    "image": "",
+    "description": "Oz Refined EXT. FINE Salt 12/1kg bags (brown)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "10.20",
+    "price-per-piece": "$0.85",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SUG02",
+    "image": "SUG02.jpg",
+    "description": "Zarrin Hard sugar cubes 10/500 gr",
+    "size": "",
+    "pieces-per-case": "10",
+    "price": "26.00",
+    "price-per-piece": "$2.60",
+    "kashrut": ""
+  },
+  {
+    "category": "Salt_and_Sugar",
+    "id": "SUG021",
+    "image": "SUG021.webp",
+    "description": "Zarrin Hard sugar cubes 10/500 gr (Nagila)",
+    "size": "",
+    "pieces-per-case": "10",
+    "price": "0.00",
+    "price-per-piece": "$0.00",
+    "kashrut": ""
+  }]
