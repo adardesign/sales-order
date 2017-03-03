@@ -24,14 +24,13 @@ var orderSheet = {},
 actions.init();
 
 actions.add({
+
   onNav: function onNav(e, ele) {
     e.preventDefault();
-
     var jThis = ele,
-      catagory = jThis.attr("data-catagory");
+      catagory = jThis.val();
     $("#order-form").find("#" + catagory).addClass("show").siblings().removeClass("show");
     jThis.addClass("active").siblings().removeClass("active");
-    if (jThis.hasClass("loaded")) return;
     $.ajax({
       url: "data/" + catagory + ".json",
       dataType: "JSON"
@@ -40,10 +39,9 @@ actions.add({
         catagory: catagory,
         data: data
       });
-      jThis.addClass("loaded");
     });
 
-    openTabs.push(catagory);
+    openTabs = [catagory];
     localStorage.setItem("openTabs", JSON.stringify(openTabs));
   },
   imgZoom: function imgZoom(e, ele) {

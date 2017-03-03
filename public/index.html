@@ -18,11 +18,10 @@
     <div class="container">
         <h1>Shibolet Ordering Sheet.</h1>
 
-        <div class="card">
-            <div class="card-header">
-                <nav class="nav order-nav nav-tabs card-header-tabs"></nav>
-            </div>
-        </div>
+                <div class="row form-group">
+                    <select class="nav order-nav col-md-10 action" data-action="onNav" data-action-type="change"></select>
+                    <button type="submit" class="btn btn-primary col-md-2">Go</button>            
+                </div>
 
         <section id="order-form"></section>
 
@@ -203,10 +202,11 @@
 
 
         <script type="tmpl" id="categoryNavTmpl">
+            <option value="-">Choose Catagory</option>
             <%obj.forEach(function(j){%>
-                <a class="nav-link action" data-action="onNav" href="#<%=j%>" data-catagory="<%=j%>">
-                    <%=utils.format.capitalize(utils.format.replaceUnderscore(j))%>
-                </a>
+                <option class="nav-link action" data-action="onNav" href="#<%=j%>" data-catagory="<%=j%>">
+                    <%=j%>
+                </option>
                 <%});%>
         </script>
 

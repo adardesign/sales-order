@@ -3,6 +3,11 @@
           margin: 20px 0 0;
           overflow: hidden;
       }
+
+      .order-nav{
+        padding-right:30px;
+        border:1px solid #ccc;
+      }
       #order-form {
           min-height: 200px;
       }
