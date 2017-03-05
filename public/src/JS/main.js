@@ -31,6 +31,7 @@ actions.add({
       catagory = jThis.val();
     $("#order-form").find("#" + catagory).addClass("show").siblings().removeClass("show");
     jThis.addClass("active").siblings().removeClass("active");
+    if(!catagory && catagory === "-") return;
     $.ajax({
       url: "data/" + catagory + ".json",
       dataType: "JSON"
@@ -181,9 +182,21 @@ $("#order-summary").on("input", ".item-comment-input", function() {
   saveItemsLocaly();
 });
 
+setTimeout(function(){
+  $("[name='salesmen-id']").trigger("change");
+    $("[name='date']").trigger("change");
+},100)
+
 $("#order-information").on("submit", function onSubmitOrder(e) {
   e.preventDefault();
+  var jThis = $(this);
   // validate...
+if(jThis.hasClass("disabled")) return;
+
+jThis.addClass("disabled");
+setTimeout(function removeClassDisabled() {
+  jThis.removeClass("disabled")
+}, 2000);
 
   if (navigator.onLine === false) {
     submitOffline();
@@ -464,10 +477,8 @@ loadSavedState = function loadSavedState() {
 
   if (storedOpenTabs) {
     storedOpenTabs = JSON.parse(storedOpenTabs);
-    storedOpenTabs.forEach(function(e) {
-      console.log(e);
-      $(".order-nav").find("[data-catagory=" + e + "]").trigger("click");
-    });
+      if(storedOpenTabs[0] ===  "-") return;
+      $(".order-nav").val(storedOpenTabs[0]).trigger("change");
   }
 
   if (storedItems) {

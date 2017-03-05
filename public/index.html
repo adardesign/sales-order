@@ -19,8 +19,12 @@
         <h1>Shibolet Ordering Sheet.</h1>
 
                 <div class="row form-group">
-                    <select class="nav order-nav col-md-10 action" data-action="onNav" data-action-type="change"></select>
-                    <button type="submit" class="btn btn-primary col-md-2">Go</button>            
+                    <div class="col-md-10">
+                        <select class="nav order-nav action" data-action="onNav" data-action-type="change"></select>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary nav-go">Go</button>            
+                    </div>
                 </div>
 
         <section id="order-form"></section>
@@ -124,7 +128,7 @@
 
         <script type="tmpl" id="catagoryTmpl">
                     <section>
-                    <h4><%=catagory.replace(/\_/ig, " ")%></h4>
+                    <h4><%=utils.format.replaceUnderscore(catagory)%></h4>
                     <ul>
                     <%data.forEach(function(e){%>
                        
@@ -204,8 +208,8 @@
         <script type="tmpl" id="categoryNavTmpl">
             <option value="-">Choose Catagory</option>
             <%obj.forEach(function(j){%>
-                <option class="nav-link action" data-action="onNav" href="#<%=j%>" data-catagory="<%=j%>">
-                    <%=j%>
+                <option class="nav-link action" data-action="onNav" href="#<%=j%>" value="<%=j%>">
+                    <%=utils.format.replaceUnderscore(j)%>
                 </option>
                 <%});%>
         </script>
