@@ -31,7 +31,7 @@ actions.add({
       catagory = jThis.val();
     $("#order-form").find("#" + catagory).addClass("show").siblings().removeClass("show");
     jThis.addClass("active").siblings().removeClass("active");
-    if(!catagory && catagory === "-") return;
+    if(!catagory || catagory === "-") return;
     $.ajax({
       url: "data/" + catagory + ".json",
       dataType: "JSON"
