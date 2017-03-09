@@ -34,7 +34,8 @@ submitOrder = function submitOrder(req, res) {
 	message += "</ul>";
 	postmark.send({
 		"From": "ebraun@adorama.com",
-		"To": "adardesign@gmail.com",
+		"To": "info@bshibolet.com",
+	    "To": "adardesign@gmail.com",
 		"Subject": "New Order",
 		"HtmlBody": message,
 		"Tag": "big-bang"
