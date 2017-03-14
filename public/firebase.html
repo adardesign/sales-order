@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Firebase Demo</title>
+</head>
+<body>
+	<script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAat5Zvb750yB9WixV9Gmy5MgFv4appSBY",
+    authDomain: "sales-order-3aff5.firebaseapp.com",
+    databaseURL: "https://sales-order-3aff5.firebaseio.com",
+    storageBucket: "sales-order-3aff5.appspot.com",
+    messagingSenderId: "291673146497"
+  };
+  firebase.initializeApp(config);
+ var db = firebase.database().ref(),
+ 	val;
+db.on("value", function onValue(data) {
+	val = data.val();
+	val.forEach(function(e) {
+		console.log(e);
+		document.write(e.description + "<br>");
+	})
+})
+</script>
+</body>
+</html>
