@@ -185,10 +185,16 @@ $("#order-summary").on("input", ".item-comment-input", function() {
 setTimeout(function(){
   $("[name='salesmen-id']").trigger("change");
     $("[name='date']").trigger("change");
-},100)
+},2500)
 
 $("#order-information").on("submit", function onSubmitOrder(e) {
   e.preventDefault();
+  
+  if(!orderItems || $.isEmptyObject(orderItems)) {
+    alert("please choose at least one product, and make sure the form is properly filled.");
+    return;
+  }
+
   var jThis = $(this);
   // validate...
 if(jThis.hasClass("disabled")) return;
