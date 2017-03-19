@@ -33,5 +33,17 @@
     "reg-price":"84.99",
     "price-per-piece": "$5.75",
     "kashrut": ""
+  },
+  {
+    "category": "Oil",
+    "id": "OIL080041",
+    "image": "OIL080041.jpg",
+    "description": "Casa Di Oliva Avocado Oil 12/17 oz (Glass)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "69.00",
+    "reg-price":"84.99",
+    "price-per-piece": "$5.75",
+    "kashrut": ""
   }
 ]
