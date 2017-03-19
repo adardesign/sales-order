@@ -130,7 +130,7 @@
                     <section>
                     <h4><%=utils.format.replaceUnderscore(catagory)%></h4>
                     <ul>
-                    <%data.forEach(function(e){%>
+                    <%data.forEach(function(e){ if(e.inactive){ return; }%>
                        
                             <li class="card" data-id="<%=e.id%>">
                                 <div class="item-image-container">
