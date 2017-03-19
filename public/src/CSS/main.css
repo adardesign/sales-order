@@ -86,6 +86,9 @@
       #order-form .badge-success {
           display: none;
       }
+      .special-price-reg i{
+        text-decoration:line-through;
+      }
       #order-form .selected .badge-success {
           display: block;
           position: absolute;
@@ -93,9 +96,17 @@
           top: 10px;
       }
       #order-form img {
-          max-width: 80%;
+          max-height: 150px;
           position:relative;
       }
+
+      #order-form #Oil li{
+        height: 400%;
+      } 
+      #order-form #Oil img{
+        max-width: auto;
+        max-height: 130px;
+      } 
        #order-form img:before {
           content:"";
           width:100%;

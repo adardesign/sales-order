@@ -134,7 +134,7 @@
                        
                             <li class="card" data-id="<%=e.id%>">
                                 <div class="item-image-container">
-                                    <img class="card-img-top action" data-action="imgZoom" src="/itemImages/<%=catagory%>/<%=e.image%>">
+                                    <img class="card-img-top action" data-action="imgZoom" src="/itemImages/<%=e.category%>/<%=e.image%>">
                                 </div>
 
                                 <div class="card-block">
@@ -143,18 +143,23 @@
                                         <%=e.description%>
                                     </div>
 
-                                    <div class="item-price" data-price="<%=e.price%>">Price:
+                                    <div class="item-price" data-price="<%=e.price%>">
+                                        <%if(e["reg-price"]){%>
+                                            <div class="special-price-reg">Reg: <i><%=utils.format.currency(e["reg-price"])%></i></div>
+                                            <strong>Special</strong>
+                                        <%}%>    
+                                        Price:
                                         <strong><%=utils.format.currency(e.price)%></strong>
                                     </div>
                                   
                                     <div class="item-price-piece">
-                                    ea:<strong><%=utils.format.currency(e["price-per-piece"])%></strong>
-                                    cs:<strong><%=e["pieces-per-case"]%></strong>
+                                    <%if(e["price-per-piece"]){%> ea:<strong><%=utils.format.currency(e["price-per-piece"])%></strong><%}%>
+                                    <%if(e["pieces-per-case"]){%> cs:<strong><%=e["pieces-per-case"]%></strong><%}%>
                                     </div>
                                   
                                     <div class="item-certification">
-                                        Cert:<strong><%=e.kashrut%></strong>
-                                        Size:<strong><%=e.size%></strong>
+                                        <%if(e.kashrut){%> Cert:<strong><%=e.kashrut%></strong> <%}%>
+                                        <%if(e.size){%> Size:<strong><%=e.size%></strong> <%}%>
                                     </div>
 
 
@@ -297,7 +302,6 @@
             </div>
         </div>
         
-
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

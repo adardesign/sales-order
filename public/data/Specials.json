@@ -1,0 +1,37 @@
+[{
+    "category": "Oil",
+    "id": "OIL0801",
+    "image": "OIL0801.jpg",
+    "description": "Casa Di Oliva  Extra Virgin Olive Oil 12/25.5 oz(Passover)",
+    "size": "",
+    "pieces-per-case": "12",
+    "reg-price":"84.99",
+    "price": "66.00",
+    "price-per-piece": "$5.50",
+    "kashrut": ""
+  },
+  {
+    "category": "Oil",
+    "id": "OIL08006",
+    "image": "OIL080041.jpg",
+    "description": "Casa Di Oliva Avocado Oil 12/17 oz (dark green)",
+    "size": "",
+    "pieces-per-case": "12",
+    "reg-price":"84.99",
+    "price": "69.00",
+    "price-per-piece": "$5.75",
+    "kashrut": ""
+  },
+  {
+    "category": "Oil",
+    "id": "OIL080041",
+    "image": "OIL080041.jpg",
+    "description": "Casa Di Oliva Avocado Oil 12/17 oz (Glass)",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "69.00",
+    "reg-price":"84.99",
+    "price-per-piece": "$5.75",
+    "kashrut": ""
+  }
+]
