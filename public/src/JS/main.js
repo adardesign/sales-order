@@ -471,7 +471,7 @@ loadSavedState = function loadSavedState() {
 
   // get storaed items
   var storedItems = localStorage.getItem("orderItems"),
-    storedOpenTabs = localStorage.getItem("openTabs"),
+    storedOpenTabs = localStorage.getItem("openTabs") || "Specials",
     storedorderInfo = localStorage.getItem("orderInfo"),
     offlineOrder,
     itemLineEle,

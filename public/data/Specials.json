@@ -33,5 +33,49 @@
     "reg-price":"84.99",
     "price-per-piece": "$5.75",
     "kashrut": ""
+  },
+   {
+    "category": "Passover",
+    "id": "MATZ012",
+    "image": "MATZ012.jpg",
+    "description": "Galil Chocolate Coated Matzot 12/7 oz",
+    "size": "",
+    "pieces-per-case": "12",
+    "price": "36.00",
+    "price-per-piece": "$3.00",
+    "kashrut": ""
+  },
+  {
+    "category": "Passover",
+    "id": "MATZ013",
+    "image": "MATZ013.jpg",
+    "description": "Galil Matzah Egg 24/10.5",
+    "size": "",
+    "pieces-per-case": "24",
+    "price": "68.00",
+    "price-per-piece": "$2.83",
+    "kashrut": ""
+  },
+  {
+    "category": "Passover",
+    "id": "MATZ011",
+    "image": "MATZ011.jpg",
+    "description": "Galil Pass.Matzas Meal 30/450gr",
+    "size": "",
+    "pieces-per-case": "30",
+    "price": "56.00",
+    "price-per-piece": "$1.87",
+    "kashrut": ""
+  },
+  {
+    "category": "Passover",
+    "id": "MATZ01",
+    "image": "MATZ01.jpg",
+    "description": "Galil Pass.Matzot 6/5/16oz",
+    "size": "",
+    "pieces-per-case": "6",
+    "price": "52.00",
+    "price-per-piece": "$8.67",
+    "kashrut": ""
   }
 ]
