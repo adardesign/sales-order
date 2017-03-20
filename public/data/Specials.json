@@ -3,12 +3,12 @@
     "id": "BEST SALESMAN",
     "image": "OIL0801.jpg",
     "description": "Benyomin M. SALESMAN",
-    "size": "",
-    "pieces-per-case": "12",
+    "size": "GREAT",
+    "pieces-per-case": "1",
     "reg-price":"1000000.99",
     "price": "0.00",
     "price-per-piece": "$0.00",
-    "kashrut": ""
+    "kashrut": "MEHADRIN"
   },
   {
     "category": "Oil",
