@@ -8,7 +8,8 @@
     "reg-price":"1000000.99",
     "price": "0.00",
     "price-per-piece": "$0.00",
-    "kashrut": "MEHADRIN"
+    "kashrut": "MEHADRIN",
+    "inactive":true
   },
   {
     "category": "Oil",
