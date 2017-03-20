@@ -16,7 +16,7 @@
 
 
     <div class="container">
-        <h1>Shibolet Ordering Sheet.</h1>
+        <h1>Shibolet Sales Order Sheet.</h1>
 
                 <div class="row form-group nav-section">
                     <div class="col-md-10">
@@ -88,7 +88,7 @@
 
                 <div class="row">
                     <div class="order-needed-by form-group col-md-4">
-                        <label>Order Needed By:</label>
+                        <label>Order Needed By Date:</label>
                         <input class="form-control" type="date" required name="order-needed-by">
                     </div>
 
@@ -97,8 +97,8 @@
                         <input class="form-control" type="text" name="area">
                     </div>
                     <div class="payment-terms form-group col-md-4">
-                        <label>payment-terms:</label>
-                        <input class="form-control" type="text" name="payment-terms">
+                        <label>Payment Terms:</label>
+                        <input class="form-control" type="text" name="Payment Terms">
                     </div>
                 </div>
 
@@ -211,7 +211,7 @@
 
 
         <script type="tmpl" id="categoryNavTmpl">
-            <option value="-">Choose Catagory</option>
+            <option value="-">Choose Category</option>
             <%obj.forEach(function(j){%>
                 <option class="nav-link action" data-action="onNav" href="#<%=j%>" value="<%=j%>">
                     <%=utils.format.replaceUnderscore(j)%>
@@ -228,8 +228,8 @@
         <script type="tmpl" id="orderTotalTmpl">
             <div class="row footer">
                 <span class="col-md-4">Order Total:</span> 
-                <span class="col-md-2 total-ammount"><input class="item-qty-input" readonly value="<%=count%>"/></span>
-                <span class="col-md-2 total-ammount"><%=utils.format.currency(ammount)%></span>
+                <span class="col-md-2 total-amount"><input class="item-qty-input" readonly value="<%=count%>"/></span>
+                <span class="col-md-2 total-amount"><%=utils.format.currency(ammount)%></span>
                 <span class="col-md-3"></span> 
             </div>
         </script>
