@@ -274,7 +274,8 @@
     "price": "33.00",
     "price-per-piece": "2.75",
     "kashrut": "",
-	"active":true
+	"active":true,
+    "badge":"PASSOVER"
   },
   {
     "category": "Honey",
