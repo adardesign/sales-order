@@ -7,7 +7,9 @@
     "pieces-per-case": "12",
     "price": "51.00",
     "price-per-piece": "4.25",
-    "kashrut": "."
+    "kashrut": ".",
+	"active":true,
+    "badge":"Limited Availability"
   },
   {
     "category": "Honey",
@@ -19,7 +21,8 @@
     "price": "100.00",
     "price-per-piece": "8.33",
     "kashrut": "",
-	"active":true
+	"active":true,
+    "badge":"Limited Availability"
   },
   {
     "category": "Honey",
