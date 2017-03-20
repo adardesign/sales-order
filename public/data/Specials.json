@@ -1,5 +1,5 @@
 [{
-    "category": "SALESMAN BEST",
+    "category": "Oil",
     "id": "OIL0801",
     "image": "OIL0801.jpg",
     "description": "Casa Di Oliva  Extra Virgin Olive Oil 12/25.5 oz(Passover)",
@@ -37,7 +37,8 @@
     "reg-price":"84.99",
     "price-per-piece": "$5.75",
     "kashrut": "",
-    "active":true
+    "active":true,
+    "badge":"CLEARANCE"
   },
   {
     "category": "Oil",
@@ -50,6 +51,7 @@
     "reg-price":"84.99",
     "price-per-piece": "$5.75",
     "kashrut": "",
-    "active":true
+    "active":true,
+    "badge":"ROLLBACK!"
   }
 ]
