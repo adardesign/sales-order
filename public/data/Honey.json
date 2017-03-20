@@ -310,7 +310,8 @@
     "price": "85.00",
     "price-per-piece": "14.17",
     "kashrut": "",
-	"active":true
+	"active":true,
+    "badge":"Temp. Out of Stock"
   },
   {
     "category": "Honey",
