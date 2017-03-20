@@ -192,7 +192,7 @@ setTimeout(function(){
 $("#order-information").on("submit", function onSubmitOrder(e) {
   e.preventDefault();
   
-  if(!orderItems || $.isEmptyObject(orderItems)) {
+  if(!orderItems || $.isEmptyObject(orderItems) || !orderInfo.name || !orderInfo.company || !orderInfo["order-needed-by"]) {
     alert("please choose at least one product, and make sure the form is properly filled.");
     return;
   }

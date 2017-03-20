@@ -7,7 +7,8 @@
     "pieces-per-case": "10",
     "price": "58.00",
     "price-per-piece": "$5.80",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -18,7 +19,8 @@
     "pieces-per-case": "12",
     "price": "37.00",
     "price-per-piece": "$3.08",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -29,7 +31,8 @@
     "pieces-per-case": "24",
     "price": "51.00",
     "price-per-piece": "$2.13",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -40,7 +43,8 @@
     "pieces-per-case": "12",
     "price": "76.00",
     "price-per-piece": "$6.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -51,7 +55,8 @@
     "pieces-per-case": "8",
     "price": "84.00",
     "price-per-piece": "$10.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -62,7 +67,8 @@
     "pieces-per-case": "6",
     "price": "10.50",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -73,7 +79,8 @@
     "pieces-per-case": "6",
     "price": "10.50",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -84,7 +91,8 @@
     "pieces-per-case": "6",
     "price": "10.50",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -95,7 +103,8 @@
     "pieces-per-case": "6",
     "price": "10.50",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Soups-Vegeta",
@@ -106,5 +115,6 @@
     "pieces-per-case": "6",
     "price": "10.50",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

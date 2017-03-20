@@ -7,7 +7,8 @@
     "pieces-per-case": "12",
     "price": "15.00",
     "price-per-piece": "$1.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -18,7 +19,8 @@
     "pieces-per-case": "12",
     "price": "15.00",
     "price-per-piece": "$1.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -29,7 +31,8 @@
     "pieces-per-case": "15",
     "price": "18.00",
     "price-per-piece": "$1.20",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -40,7 +43,8 @@
     "pieces-per-case": "18",
     "price": "15.00",
     "price-per-piece": "$0.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -51,7 +55,8 @@
     "pieces-per-case": "12",
     "price": "10.20",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -62,7 +67,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -73,7 +79,8 @@
     "pieces-per-case": "12",
     "price": "12.50",
     "price-per-piece": "$1.04",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -84,7 +91,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -95,7 +103,8 @@
     "pieces-per-case": "12",
     "price": "10.50",
     "price-per-piece": "$0.88",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -106,7 +115,8 @@
     "pieces-per-case": "12",
     "price": "12.50",
     "price-per-piece": "$1.04",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -117,7 +127,8 @@
     "pieces-per-case": "12",
     "price": "10.20",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -128,7 +139,8 @@
     "pieces-per-case": "10",
     "price": "26.00",
     "price-per-piece": "$2.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Salt_and_Sugar",
@@ -139,5 +151,6 @@
     "pieces-per-case": "10",
     "price": "0.00",
     "price-per-piece": "$0.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

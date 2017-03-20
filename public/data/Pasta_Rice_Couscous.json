@@ -7,7 +7,8 @@
     "pieces-per-case": "12",
     "price": "28.20",
     "price-per-piece": "$2.35",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -18,7 +19,8 @@
     "pieces-per-case": "12",
     "price": "28.20",
     "price-per-piece": "$2.35",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -29,7 +31,8 @@
     "pieces-per-case": "12",
     "price": "28.20",
     "price-per-piece": "$2.35",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -40,7 +43,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -51,7 +55,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -62,7 +67,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -73,7 +79,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -84,7 +91,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -95,7 +103,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -106,7 +115,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -117,7 +127,8 @@
     "pieces-per-case": "1",
     "price": "10.50",
     "price-per-piece": "10.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -128,7 +139,8 @@
     "pieces-per-case": "1 bag",
     "price": "10.50",
     "price-per-piece": "10.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -139,7 +151,8 @@
     "pieces-per-case": "1 bag",
     "price": "11.75",
     "price-per-piece": "11.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -150,7 +163,8 @@
     "pieces-per-case": "4",
     "price": "20.00",
     "price-per-piece": "5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -161,7 +175,8 @@
     "pieces-per-case": "4",
     "price": "20.00",
     "price-per-piece": "5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -172,7 +187,8 @@
     "pieces-per-case": "4",
     "price": "20.00",
     "price-per-piece": "5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pasta_Rice_Couscous",
@@ -183,5 +199,6 @@
     "pieces-per-case": "4",
     "price": "20.00",
     "price-per-piece": "5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

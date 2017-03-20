@@ -1,15 +1,16 @@
 [{
-    "category": "Oil",
-    "id": "BEST SALESMAN",
+    "category": "SALESMAN BEST",
+    "id": "OIL0801",
     "image": "OIL0801.jpg",
-    "description": "Benyomin M. SALESMAN",
-    "size": "GREAT",
-    "pieces-per-case": "1",
-    "reg-price":"1000000.99",
-    "price": "0.00",
-    "price-per-piece": "$0.00",
-    "kashrut": "MEHADRIN",
-    "inactive":true
+    "description": "Casa Di Oliva  Extra Virgin Olive Oil 12/25.5 oz(Passover)",
+    "size": "",
+    "pieces-per-case": "12",
+    "reg-price":"84.99",
+    "price": "66.00",
+    "price-per-piece": "$5.50",
+    "kashrut": "",
+    "active":true,
+    "badge":"price reduction"
   },
   {
     "category": "Oil",
@@ -21,7 +22,9 @@
     "reg-price":"84.99",
     "price": "69.00",
     "price-per-piece": "$5.75",
-    "kashrut": ""
+    "kashrut": "",
+    "active":true,
+    "badge":"Avaliable April 5th"
   },
   {
     "category": "Oil",
@@ -33,7 +36,8 @@
     "price": "69.00",
     "reg-price":"84.99",
     "price-per-piece": "$5.75",
-    "kashrut": ""
+    "kashrut": "",
+    "active":true
   },
   {
     "category": "Oil",
@@ -45,6 +49,7 @@
     "price": "69.00",
     "reg-price":"84.99",
     "price-per-piece": "$5.75",
-    "kashrut": ""
+    "kashrut": "",
+    "active":true
   }
 ]

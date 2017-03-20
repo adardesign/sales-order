@@ -7,7 +7,8 @@
     "pieces-per-case": "12",
     "price": "66.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -18,7 +19,8 @@
     "pieces-per-case": "12",
     "price": "69.00",
     "price-per-piece": "$5.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -29,7 +31,8 @@
     "pieces-per-case": "12",
     "price": "69.00",
     "price-per-piece": "$5.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -40,7 +43,8 @@
     "pieces-per-case": "12",
     "price": "82.50",
     "price-per-piece": "$6.88",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -51,7 +55,8 @@
     "pieces-per-case": "12",
     "price": "60.00",
     "price-per-piece": "$5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -62,7 +67,8 @@
     "pieces-per-case": "6",
     "price": "75.00",
     "price-per-piece": "$12.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -73,7 +79,8 @@
     "pieces-per-case": "8",
     "price": "70.00",
     "price-per-piece": "$8.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -84,7 +91,8 @@
     "pieces-per-case": "12",
     "price": "54.00",
     "price-per-piece": "$4.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -95,7 +103,8 @@
     "pieces-per-case": "6",
     "price": "41.25",
     "price-per-piece": "$6.88",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -106,7 +115,8 @@
     "pieces-per-case": "12",
     "price": "69.00",
     "price-per-piece": "$5.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -117,7 +127,8 @@
     "pieces-per-case": "6",
     "price": "21.50",
     "price-per-piece": "$3.58",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -128,7 +139,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "$3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -139,7 +151,8 @@
     "pieces-per-case": "12",
     "price": "67.50",
     "price-per-piece": "$5.63",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -150,7 +163,8 @@
     "pieces-per-case": "6",
     "price": "30.00",
     "price-per-piece": "$5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Oil",
@@ -161,5 +175,6 @@
     "pieces-per-case": "4",
     "price": "40.00",
     "price-per-piece": "$10.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

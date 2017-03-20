@@ -7,5 +7,6 @@
     "pieces-per-case": "48",
     "price": "74.00",
     "price-per-piece": "$1.54",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

@@ -7,7 +7,8 @@
     "pieces-per-case": "6",
     "price": "93.60",
     "price-per-piece": "$15.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -18,7 +19,8 @@
     "pieces-per-case": "6",
     "price": "93.60",
     "price-per-piece": "$15.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -29,7 +31,8 @@
     "pieces-per-case": "6",
     "price": "93.60",
     "price-per-piece": "$15.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -40,7 +43,8 @@
     "pieces-per-case": "24",
     "price": "52.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -51,7 +55,8 @@
     "pieces-per-case": "12",
     "price": "12.50",
     "price-per-piece": "$1.04",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -62,7 +67,8 @@
     "pieces-per-case": "12",
     "price": "23.00",
     "price-per-piece": "$1.92",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -73,7 +79,8 @@
     "pieces-per-case": "12",
     "price": "12.50",
     "price-per-piece": "$1.04",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -84,7 +91,8 @@
     "pieces-per-case": "72",
     "price": "45.00",
     "price-per-piece": "$0.63",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -95,7 +103,8 @@
     "pieces-per-case": "6",
     "price": "135.00",
     "price-per-piece": "$22.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -106,7 +115,8 @@
     "pieces-per-case": "6",
     "price": "135.00",
     "price-per-piece": "$22.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -117,7 +127,8 @@
     "pieces-per-case": "25",
     "price": "74.00",
     "price-per-piece": "$2.96",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -128,7 +139,8 @@
     "pieces-per-case": "4",
     "price": "84.00",
     "price-per-piece": "$21.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -139,7 +151,8 @@
     "pieces-per-case": "120",
     "price": "62.40",
     "price-per-piece": "$0.52",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -150,7 +163,8 @@
     "pieces-per-case": "120",
     "price": "54.00",
     "price-per-piece": "$0.45",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -161,7 +175,8 @@
     "pieces-per-case": "120",
     "price": "54.00",
     "price-per-piece": "$0.45",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -172,7 +187,8 @@
     "pieces-per-case": "44",
     "price": "55.00",
     "price-per-piece": "$1.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -183,7 +199,8 @@
     "pieces-per-case": "72",
     "price": "42.00",
     "price-per-piece": "$0.58",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -194,7 +211,8 @@
     "pieces-per-case": "12",
     "price": "12.50",
     "price-per-piece": "$1.04",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -205,7 +223,8 @@
     "pieces-per-case": "4",
     "price": "92.00",
     "price-per-piece": "$23.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candy",
@@ -216,5 +235,6 @@
     "pieces-per-case": "4",
     "price": "85.00",
     "price-per-piece": "$21.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

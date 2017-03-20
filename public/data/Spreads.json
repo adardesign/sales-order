@@ -7,7 +7,8 @@
     "pieces-per-case": "12",
     "price": "37.50",
     "price-per-piece": "$3.13",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -18,7 +19,8 @@
     "pieces-per-case": "24",
     "price": "61.25",
     "price-per-piece": "$2.55",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -29,7 +31,8 @@
     "pieces-per-case": "24",
     "price": "61.25",
     "price-per-piece": "$2.55",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -40,7 +43,8 @@
     "pieces-per-case": "24",
     "price": "61.25",
     "price-per-piece": "$2.55",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -51,7 +55,8 @@
     "pieces-per-case": "24",
     "price": "61.25",
     "price-per-piece": "$2.55",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -62,7 +67,8 @@
     "pieces-per-case": "12",
     "price": "67.20",
     "price-per-piece": "$5.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -73,7 +79,8 @@
     "pieces-per-case": "15",
     "price": "42.00",
     "price-per-piece": "$2.80",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -84,7 +91,8 @@
     "pieces-per-case": "45",
     "price": "126.00",
     "price-per-piece": "$2.80",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -95,7 +103,8 @@
     "pieces-per-case": "12",
     "price": "27.00",
     "price-per-piece": "$2.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Spreads",
@@ -106,5 +115,6 @@
     "pieces-per-case": "12",
     "price": "27.00",
     "price-per-piece": "$2.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

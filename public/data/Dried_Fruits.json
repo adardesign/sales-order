@@ -7,7 +7,8 @@
     "pieces-per-case": "26.4",
     "price": "173.25",
     "price-per-piece": "$6.56",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -18,7 +19,8 @@
     "pieces-per-case": "30",
     "price": "150.00",
     "price-per-piece": "$5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -29,7 +31,7 @@
     "pieces-per-case": "44",
     "price": "308.00",
     "price-per-piece": "$7.00",
-    "kashrut": ""
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -40,7 +42,8 @@
     "pieces-per-case": "44",
     "price": "129.00",
     "price-per-piece": "$2.93",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -51,7 +54,8 @@
     "pieces-per-case": "14",
     "price": "0.00",
     "price-per-piece": "$0.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -62,7 +66,8 @@
     "pieces-per-case": "30",
     "price": "45.00",
     "price-per-piece": "$1.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -73,7 +78,8 @@
     "pieces-per-case": "30",
     "price": "59.70",
     "price-per-piece": "$1.99",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -84,7 +90,8 @@
     "pieces-per-case": "11",
     "price": "38.50",
     "price-per-piece": "$3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -95,7 +102,8 @@
     "pieces-per-case": "30",
     "price": "69.00",
     "price-per-piece": "$2.30",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -106,7 +114,8 @@
     "pieces-per-case": "22",
     "price": "143.00",
     "price-per-piece": "$6.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -117,7 +126,8 @@
     "pieces-per-case": "28",
     "price": "154.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -128,7 +138,8 @@
     "pieces-per-case": "25",
     "price": "52.50",
     "price-per-piece": "$2.10",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -139,7 +150,8 @@
     "pieces-per-case": "25",
     "price": "115.00",
     "price-per-piece": "$4.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -150,7 +162,8 @@
     "pieces-per-case": "44",
     "price": "118.80",
     "price-per-piece": "$2.70",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -161,7 +174,8 @@
     "pieces-per-case": "30",
     "price": "75.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -172,7 +186,8 @@
     "pieces-per-case": "30",
     "price": "120.00",
     "price-per-piece": "$4.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -183,7 +198,8 @@
     "pieces-per-case": "30",
     "price": "67.50",
     "price-per-piece": "$2.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -194,7 +210,8 @@
     "pieces-per-case": "22",
     "price": "121.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -205,7 +222,8 @@
     "pieces-per-case": "27.5",
     "price": "110.00",
     "price-per-piece": "$4.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -216,7 +234,8 @@
     "pieces-per-case": "28",
     "price": "172.50",
     "price-per-piece": "$6.16",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -227,7 +246,8 @@
     "pieces-per-case": "22.05",
     "price": "150.00",
     "price-per-piece": "$6.80",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -238,7 +258,8 @@
     "pieces-per-case": "25",
     "price": "165.00",
     "price-per-piece": "$6.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -249,7 +270,8 @@
     "pieces-per-case": "22.05",
     "price": "144.00",
     "price-per-piece": "$6.53",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -260,7 +282,8 @@
     "pieces-per-case": "30",
     "price": "120.00",
     "price-per-piece": "$4.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -271,7 +294,8 @@
     "pieces-per-case": "22",
     "price": "165.00",
     "price-per-piece": "$7.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -282,7 +306,8 @@
     "pieces-per-case": "25",
     "price": "77.50",
     "price-per-piece": "$3.10",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -293,7 +318,8 @@
     "pieces-per-case": "22.05",
     "price": "77.00",
     "price-per-piece": "$3.49",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -304,7 +330,8 @@
     "pieces-per-case": "22.05",
     "price": "77.00",
     "price-per-piece": "$3.49",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -315,7 +342,8 @@
     "pieces-per-case": "44",
     "price": "132.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -326,7 +354,8 @@
     "pieces-per-case": "16",
     "price": "79.20",
     "price-per-piece": "$4.95",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -337,7 +366,8 @@
     "pieces-per-case": "12",
     "price": "165.60",
     "price-per-piece": "$13.80",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -348,7 +378,8 @@
     "pieces-per-case": "44",
     "price": "116.60",
     "price-per-piece": "$2.65",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -359,7 +390,8 @@
     "pieces-per-case": "11",
     "price": "40.00",
     "price-per-piece": "$3.64",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -370,7 +402,8 @@
     "pieces-per-case": "11",
     "price": "54.00",
     "price-per-piece": "$4.91",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -381,7 +414,8 @@
     "pieces-per-case": "28",
     "price": "133.00",
     "price-per-piece": "$4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -392,7 +426,8 @@
     "pieces-per-case": "44",
     "price": "80.00",
     "price-per-piece": "$1.82",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -403,7 +438,8 @@
     "pieces-per-case": "44",
     "price": "185.00",
     "price-per-piece": "$4.20",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -414,7 +450,8 @@
     "pieces-per-case": "44",
     "price": "115.00",
     "price-per-piece": "$2.61",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -425,7 +462,8 @@
     "pieces-per-case": "44",
     "price": "245.00",
     "price-per-piece": "$5.57",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -436,7 +474,8 @@
     "pieces-per-case": "44",
     "price": "110.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -447,7 +486,8 @@
     "pieces-per-case": "22",
     "price": "62.70",
     "price-per-piece": "$2.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -458,7 +498,8 @@
     "pieces-per-case": "22",
     "price": "64.90",
     "price-per-piece": "$2.95",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -469,7 +510,8 @@
     "pieces-per-case": "30",
     "price": "67.50",
     "price-per-piece": "$2.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -480,7 +522,8 @@
     "pieces-per-case": "28",
     "price": "119.00",
     "price-per-piece": "$4.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -491,7 +534,8 @@
     "pieces-per-case": "28",
     "price": "98.00",
     "price-per-piece": "$3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -502,7 +546,8 @@
     "pieces-per-case": "28",
     "price": "98.00",
     "price-per-piece": "$3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -513,7 +558,8 @@
     "pieces-per-case": "28",
     "price": "98.00",
     "price-per-piece": "$3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -524,7 +570,8 @@
     "pieces-per-case": "48",
     "price": "46.50",
     "price-per-piece": "$0.97",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -535,7 +582,8 @@
     "pieces-per-case": "22",
     "price": "70.00",
     "price-per-piece": "$3.18",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Dried_Fruits",
@@ -546,5 +594,6 @@
     "pieces-per-case": "",
     "price": "125.00",
     "price-per-piece": "#DIV/0!",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

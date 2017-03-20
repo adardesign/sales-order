@@ -18,7 +18,8 @@
     "pieces-per-case": "12",
     "price": "100.00",
     "price-per-piece": "8.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -29,7 +30,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -40,7 +42,8 @@
     "pieces-per-case": "12",
     "price": "76.00",
     "price-per-piece": "6.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -51,7 +54,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -62,7 +66,8 @@
     "pieces-per-case": "12",
     "price": "42.00",
     "price-per-piece": "3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -73,7 +78,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -84,7 +90,8 @@
     "pieces-per-case": "12",
     "price": "76.00",
     "price-per-piece": "6.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -95,7 +102,8 @@
     "pieces-per-case": "6",
     "price": "85.00",
     "price-per-piece": "14.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -106,7 +114,8 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -117,7 +126,8 @@
     "pieces-per-case": "12",
     "price": "74.00",
     "price-per-piece": "6.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -128,7 +138,8 @@
     "pieces-per-case": "12",
     "price": "108.00",
     "price-per-piece": "9.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -139,7 +150,8 @@
     "pieces-per-case": "24",
     "price": "48.00",
     "price-per-piece": "2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -150,7 +162,8 @@
     "pieces-per-case": "6",
     "price": "85.00",
     "price-per-piece": "14.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -161,7 +174,8 @@
     "pieces-per-case": "12",
     "price": "84.00",
     "price-per-piece": "7.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -172,7 +186,8 @@
     "pieces-per-case": "12",
     "price": "57.00",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -183,7 +198,8 @@
     "pieces-per-case": "12",
     "price": "60.00",
     "price-per-piece": "5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -194,7 +210,8 @@
     "pieces-per-case": "12",
     "price": "99.00",
     "price-per-piece": "8.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -205,7 +222,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -216,7 +234,8 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -227,7 +246,8 @@
     "pieces-per-case": "12",
     "price": "74.00",
     "price-per-piece": "6.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -238,7 +258,8 @@
     "pieces-per-case": "6",
     "price": "83.00",
     "price-per-piece": "13.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -249,7 +270,8 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -260,7 +282,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -271,7 +294,8 @@
     "pieces-per-case": "12",
     "price": "76.00",
     "price-per-piece": "6.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -282,7 +306,8 @@
     "pieces-per-case": "6",
     "price": "85.00",
     "price-per-piece": "14.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -293,7 +318,8 @@
     "pieces-per-case": "48",
     "price": "128.00",
     "price-per-piece": "2.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -304,7 +330,8 @@
     "pieces-per-case": "6",
     "price": "85.00",
     "price-per-piece": "14.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -315,7 +342,8 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -326,7 +354,8 @@
     "pieces-per-case": "12",
     "price": "74.00",
     "price-per-piece": "6.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -337,7 +366,8 @@
     "pieces-per-case": "12",
     "price": "120.00",
     "price-per-piece": "10.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -348,7 +378,8 @@
     "pieces-per-case": "12",
     "price": "69.00",
     "price-per-piece": "5.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -359,7 +390,8 @@
     "pieces-per-case": "6",
     "price": "105.00",
     "price-per-piece": "17.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -370,7 +402,8 @@
     "pieces-per-case": "12",
     "price": "132.00",
     "price-per-piece": "11.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -381,7 +414,8 @@
     "pieces-per-case": "12",
     "price": "54.00",
     "price-per-piece": "4.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -392,7 +426,8 @@
     "pieces-per-case": "6",
     "price": "99.00",
     "price-per-piece": "16.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -403,7 +438,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -414,7 +450,8 @@
     "pieces-per-case": "12",
     "price": "80.00",
     "price-per-piece": "6.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -425,7 +462,8 @@
     "pieces-per-case": "12",
     "price": "72.00",
     "price-per-piece": "6.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -436,7 +474,8 @@
     "pieces-per-case": "9",
     "price": "108.00",
     "price-per-piece": "12.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -447,7 +486,8 @@
     "pieces-per-case": "18",
     "price": "85.50",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -458,7 +498,8 @@
     "pieces-per-case": "12",
     "price": "84.00",
     "price-per-piece": "7.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -469,7 +510,8 @@
     "pieces-per-case": "12",
     "price": "61.00",
     "price-per-piece": "5.08",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -480,7 +522,8 @@
     "pieces-per-case": "5",
     "price": "37.20",
     "price-per-piece": "7.44",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -491,7 +534,8 @@
     "pieces-per-case": "10",
     "price": "62.25",
     "price-per-piece": "6.23",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -502,7 +546,8 @@
     "pieces-per-case": "5",
     "price": "37.20",
     "price-per-piece": "7.44",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -513,7 +558,8 @@
     "pieces-per-case": "10",
     "price": "62.25",
     "price-per-piece": "6.23",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -524,7 +570,8 @@
     "pieces-per-case": "12",
     "price": "111.00",
     "price-per-piece": "9.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -535,7 +582,8 @@
     "pieces-per-case": "12",
     "price": "57.00",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -546,7 +594,8 @@
     "pieces-per-case": "12",
     "price": "57.00",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -557,7 +606,8 @@
     "pieces-per-case": "12",
     "price": "144.00",
     "price-per-piece": "12.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -568,7 +618,8 @@
     "pieces-per-case": "6",
     "price": "140.00",
     "price-per-piece": "23.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -579,7 +630,8 @@
     "pieces-per-case": "12",
     "price": "42.00",
     "price-per-piece": "3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -590,7 +642,8 @@
     "pieces-per-case": "12",
     "price": "57.00",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -601,7 +654,8 @@
     "pieces-per-case": "12",
     "price": "42.00",
     "price-per-piece": "3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -612,7 +666,8 @@
     "pieces-per-case": "12",
     "price": "64.00",
     "price-per-piece": "5.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -623,7 +678,8 @@
     "pieces-per-case": "12",
     "price": "144.00",
     "price-per-piece": "12.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -634,7 +690,8 @@
     "pieces-per-case": "6",
     "price": "140.00",
     "price-per-piece": "23.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -645,7 +702,8 @@
     "pieces-per-case": "12",
     "price": "57.00",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -656,7 +714,8 @@
     "pieces-per-case": "12",
     "price": "57.00",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -667,7 +726,8 @@
     "pieces-per-case": "12",
     "price": "57.00",
     "price-per-piece": "4.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -678,7 +738,8 @@
     "pieces-per-case": "12",
     "price": "148.00",
     "price-per-piece": "12.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -689,7 +750,8 @@
     "pieces-per-case": "12",
     "price": "64.00",
     "price-per-piece": "5.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -700,7 +762,8 @@
     "pieces-per-case": "12",
     "price": "86.00",
     "price-per-piece": "7.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -711,7 +774,8 @@
     "pieces-per-case": "12",
     "price": "49.00",
     "price-per-piece": "4.08",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -722,7 +786,8 @@
     "pieces-per-case": "12",
     "price": "49.00",
     "price-per-piece": "4.08",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -733,7 +798,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -744,7 +810,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -755,7 +822,8 @@
     "pieces-per-case": "12",
     "price": "49.00",
     "price-per-piece": "4.08",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -766,7 +834,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -777,7 +846,8 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -788,7 +858,8 @@
     "pieces-per-case": "12",
     "price": "74.00",
     "price-per-piece": "6.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -799,7 +870,8 @@
     "pieces-per-case": "6",
     "price": "105.00",
     "price-per-piece": "17.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -810,7 +882,8 @@
     "pieces-per-case": "12",
     "price": "81.00",
     "price-per-piece": "6.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -821,7 +894,8 @@
     "pieces-per-case": "12",
     "price": "37.50",
     "price-per-piece": "3.13",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -832,7 +906,8 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -843,7 +918,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -854,7 +930,8 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -865,7 +942,8 @@
     "pieces-per-case": "6",
     "price": "74.00",
     "price-per-piece": "12.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -876,7 +954,8 @@
     "pieces-per-case": "12",
     "price": "85.00",
     "price-per-piece": "7.08",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -887,7 +966,8 @@
     "pieces-per-case": "12",
     "price": "60.00",
     "price-per-piece": "5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -898,7 +978,8 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -909,7 +990,8 @@
     "pieces-per-case": "12",
     "price": "45.00",
     "price-per-piece": "3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Honey",
@@ -920,5 +1002,6 @@
     "pieces-per-case": "12",
     "price": "44.00",
     "price-per-piece": "3.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

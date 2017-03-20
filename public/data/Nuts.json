@@ -7,7 +7,8 @@
     "pieces-per-case": "25",
     "price": "148.75",
     "price-per-piece": "$5.95",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -18,7 +19,8 @@
     "pieces-per-case": "44",
     "price": "342.00",
     "price-per-piece": "$7.77",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -29,7 +31,8 @@
     "pieces-per-case": "25",
     "price": "110.00",
     "price-per-piece": "$4.40",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -40,7 +43,8 @@
     "pieces-per-case": "22",
     "price": "110.00",
     "price-per-piece": "$5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -51,7 +55,8 @@
     "pieces-per-case": "25",
     "price": "175.00",
     "price-per-piece": "$7.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -62,7 +67,8 @@
     "pieces-per-case": "25",
     "price": "175.00",
     "price-per-piece": "$7.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -73,7 +79,8 @@
     "pieces-per-case": "25",
     "price": "168.75",
     "price-per-piece": "$6.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -84,7 +91,8 @@
     "pieces-per-case": "25",
     "price": "0.00",
     "price-per-piece": "$0.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -95,7 +103,8 @@
     "pieces-per-case": "25",
     "price": "175.00",
     "price-per-piece": "$7.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -106,7 +115,8 @@
     "pieces-per-case": "25",
     "price": "175.00",
     "price-per-piece": "$7.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -117,7 +127,8 @@
     "pieces-per-case": "20",
     "price": "105.00",
     "price-per-piece": "$5.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -128,7 +139,8 @@
     "pieces-per-case": "25",
     "price": "148.50",
     "price-per-piece": "$5.94",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -139,7 +151,8 @@
     "pieces-per-case": "30",
     "price": "265.00",
     "price-per-piece": "$8.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -150,7 +163,8 @@
     "pieces-per-case": "22",
     "price": "150.70",
     "price-per-piece": "$6.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -161,7 +175,8 @@
     "pieces-per-case": "25",
     "price": "181.25",
     "price-per-piece": "$7.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -172,7 +187,8 @@
     "pieces-per-case": "25",
     "price": "162.50",
     "price-per-piece": "$6.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -183,7 +199,8 @@
     "pieces-per-case": "50",
     "price": "230.00",
     "price-per-piece": "$4.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -194,7 +211,8 @@
     "pieces-per-case": "50",
     "price": "325.00",
     "price-per-piece": "$6.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -205,7 +223,8 @@
     "pieces-per-case": "50",
     "price": "256.00",
     "price-per-piece": "$5.12",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -216,7 +235,8 @@
     "pieces-per-case": "25",
     "price": "212.50",
     "price-per-piece": "$8.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -227,7 +247,8 @@
     "pieces-per-case": "55.12",
     "price": "358.00",
     "price-per-piece": "$6.49",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -238,7 +259,8 @@
     "pieces-per-case": "25",
     "price": "156.25",
     "price-per-piece": "$6.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -249,7 +271,8 @@
     "pieces-per-case": "22.05",
     "price": "154.00",
     "price-per-piece": "$6.98",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -260,7 +283,8 @@
     "pieces-per-case": "22.05",
     "price": "154.00",
     "price-per-piece": "$6.98",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Nuts",
@@ -271,5 +295,6 @@
     "pieces-per-case": "25",
     "price": "162.50",
     "price-per-piece": "$6.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

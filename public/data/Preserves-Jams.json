@@ -7,7 +7,8 @@
     "pieces-per-case": "24",
     "price": "72.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -18,7 +19,8 @@
     "pieces-per-case": "12",
     "price": "48.00",
     "price-per-piece": "$4.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -29,7 +31,8 @@
     "pieces-per-case": "24",
     "price": "72.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -40,7 +43,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -51,7 +55,8 @@
     "pieces-per-case": "24",
     "price": "72.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -62,7 +67,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -73,7 +79,8 @@
     "pieces-per-case": "12",
     "price": "56.00",
     "price-per-piece": "$4.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -84,7 +91,8 @@
     "pieces-per-case": "24",
     "price": "72.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -95,7 +103,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -106,7 +115,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -117,7 +127,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -128,7 +139,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -139,7 +151,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -150,7 +163,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -161,7 +175,8 @@
     "pieces-per-case": "24",
     "price": "72.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -172,7 +187,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -183,7 +199,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -194,7 +211,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -205,7 +223,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -216,7 +235,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -227,7 +247,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -238,7 +259,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -249,7 +271,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -260,7 +283,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -271,7 +295,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -282,7 +307,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -293,7 +319,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -304,7 +331,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -315,7 +343,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -326,7 +355,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -337,7 +367,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -348,7 +379,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -359,7 +391,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -370,7 +403,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -381,7 +415,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -392,7 +427,8 @@
     "pieces-per-case": "8",
     "price": "22.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -403,7 +439,8 @@
     "pieces-per-case": "12",
     "price": "19.20",
     "price-per-piece": "$1.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -414,7 +451,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -425,7 +463,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -436,7 +475,8 @@
     "pieces-per-case": "6",
     "price": "15.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -447,7 +487,8 @@
     "pieces-per-case": "6",
     "price": "15.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -458,7 +499,8 @@
     "pieces-per-case": "6",
     "price": "15.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -469,7 +511,8 @@
     "pieces-per-case": "6",
     "price": "15.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -480,7 +523,8 @@
     "pieces-per-case": "6",
     "price": "15.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -491,7 +535,8 @@
     "pieces-per-case": "6",
     "price": "15.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -502,7 +547,8 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -513,7 +559,8 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Preserves-Jams",
@@ -524,5 +571,6 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

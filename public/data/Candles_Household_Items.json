@@ -8,7 +8,8 @@
     "pieces-per-case": "5",
     "price": "60.00",
     "price-per-piece": "$12.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -19,7 +20,8 @@
     "pieces-per-case": "24",
     "price": "22.80",
     "price-per-piece": "$0.95",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -30,7 +32,8 @@
     "pieces-per-case": "12",
     "price": "20.00",
     "price-per-piece": "$1.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -41,7 +44,8 @@
     "pieces-per-case": "12",
     "price": "20.00",
     "price-per-piece": "$1.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -52,7 +56,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -63,7 +68,8 @@
     "pieces-per-case": "48",
     "price": "24.00",
     "price-per-piece": "$0.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -74,7 +80,8 @@
     "pieces-per-case": "24",
     "price": "13.20",
     "price-per-piece": "$0.55",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -85,7 +92,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -96,7 +104,8 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -107,7 +116,8 @@
     "pieces-per-case": "48",
     "price": "19.00",
     "price-per-piece": "$0.40",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -118,7 +128,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -129,7 +140,8 @@
     "pieces-per-case": "12",
     "price": "51.00",
     "price-per-piece": "$4.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -140,7 +152,8 @@
     "pieces-per-case": "8",
     "price": "37.00",
     "price-per-piece": "$4.63",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -151,7 +164,8 @@
     "pieces-per-case": "24",
     "price": "24.00",
     "price-per-piece": "$1.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -162,7 +176,8 @@
     "pieces-per-case": "36",
     "price": "108.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -173,7 +188,8 @@
     "pieces-per-case": "24",
     "price": "84.00",
     "price-per-piece": "$3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -184,7 +200,8 @@
     "pieces-per-case": "6",
     "price": "36.00",
     "price-per-piece": "$6.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -195,7 +212,8 @@
     "pieces-per-case": "60",
     "price": "36.00",
     "price-per-piece": "$0.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -206,7 +224,8 @@
     "pieces-per-case": "10",
     "price": "34.00",
     "price-per-piece": "$3.40",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Candles_Household_Items",
@@ -217,5 +236,6 @@
     "pieces-per-case": "12",
     "price": "30.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

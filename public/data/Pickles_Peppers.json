@@ -7,7 +7,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -18,7 +19,8 @@
     "pieces-per-case": "6",
     "price": "17.50",
     "price-per-piece": "$2.92",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -29,7 +31,8 @@
     "pieces-per-case": "12",
     "price": "16.50",
     "price-per-piece": "$1.38",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -40,7 +43,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -51,7 +55,8 @@
     "pieces-per-case": "2",
     "price": "54.00",
     "price-per-piece": "$27.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -62,7 +67,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -73,7 +79,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -84,7 +91,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -95,7 +103,8 @@
     "pieces-per-case": "2",
     "price": "48.00",
     "price-per-piece": "$24.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -106,7 +115,8 @@
     "pieces-per-case": "6",
     "price": "24.00",
     "price-per-piece": "$4.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -117,7 +127,8 @@
     "pieces-per-case": "2",
     "price": "54.00",
     "price-per-piece": "$27.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -128,7 +139,8 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -139,7 +151,8 @@
     "pieces-per-case": "12",
     "price": "51.00",
     "price-per-piece": "$4.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -150,7 +163,8 @@
     "pieces-per-case": "2",
     "price": "30.00",
     "price-per-piece": "$15.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -161,7 +175,8 @@
     "pieces-per-case": "12",
     "price": "21.00",
     "price-per-piece": "$1.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -172,7 +187,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -183,7 +199,8 @@
     "pieces-per-case": "2",
     "price": "56.00",
     "price-per-piece": "$28.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -194,7 +211,8 @@
     "pieces-per-case": "2",
     "price": "54.00",
     "price-per-piece": "$27.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -205,7 +223,8 @@
     "pieces-per-case": "2",
     "price": "54.00",
     "price-per-piece": "$27.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -216,7 +235,8 @@
     "pieces-per-case": "12",
     "price": "32.00",
     "price-per-piece": "$2.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -227,7 +247,8 @@
     "pieces-per-case": "12",
     "price": "32.00",
     "price-per-piece": "$2.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -238,7 +259,8 @@
     "pieces-per-case": "12",
     "price": "31.20",
     "price-per-piece": "$2.60",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -249,7 +271,8 @@
     "pieces-per-case": "12",
     "price": "30.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -260,7 +283,8 @@
     "pieces-per-case": "12",
     "price": "30.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -271,7 +295,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -282,7 +307,8 @@
     "pieces-per-case": "6",
     "price": "36.00",
     "price-per-piece": "$6.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -293,7 +319,8 @@
     "pieces-per-case": "2",
     "price": "75.00",
     "price-per-piece": "$37.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -304,7 +331,8 @@
     "pieces-per-case": "12",
     "price": "17.40",
     "price-per-piece": "$1.45",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -315,7 +343,8 @@
     "pieces-per-case": "6",
     "price": "16.50",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -326,7 +355,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -337,7 +367,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -348,7 +379,8 @@
     "pieces-per-case": "12",
     "price": "35.00",
     "price-per-piece": "$2.92",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -359,7 +391,8 @@
     "pieces-per-case": "12",
     "price": "35.00",
     "price-per-piece": "$2.92",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -370,7 +403,8 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -381,7 +415,8 @@
     "pieces-per-case": "12",
     "price": "25.00",
     "price-per-piece": "$2.08",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -392,7 +427,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -403,7 +439,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -414,7 +451,8 @@
     "pieces-per-case": "2",
     "price": "54.00",
     "price-per-piece": "$27.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -425,7 +463,8 @@
     "pieces-per-case": "2",
     "price": "58.00",
     "price-per-piece": "$29.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -436,7 +475,8 @@
     "pieces-per-case": "12",
     "price": "30.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -447,7 +487,8 @@
     "pieces-per-case": "2",
     "price": "56.00",
     "price-per-piece": "$28.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -458,7 +499,8 @@
     "pieces-per-case": "12",
     "price": "54.00",
     "price-per-piece": "$4.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -469,7 +511,8 @@
     "pieces-per-case": "12",
     "price": "58.00",
     "price-per-piece": "$4.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -480,7 +523,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -491,7 +535,8 @@
     "pieces-per-case": "12",
     "price": "20.00",
     "price-per-piece": "$1.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -502,7 +547,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -513,7 +559,8 @@
     "pieces-per-case": "12",
     "price": "28.00",
     "price-per-piece": "$2.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -524,7 +571,8 @@
     "pieces-per-case": "12",
     "price": "16.20",
     "price-per-piece": "$1.35",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -535,7 +583,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -546,7 +595,8 @@
     "pieces-per-case": "13.75",
     "price": "26.00",
     "price-per-piece": "$1.89",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -557,7 +607,8 @@
     "pieces-per-case": "24",
     "price": "23.00",
     "price-per-piece": "$0.96",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -568,7 +619,8 @@
     "pieces-per-case": "12",
     "price": "48.00",
     "price-per-piece": "$4.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -579,7 +631,8 @@
     "pieces-per-case": "24",
     "price": "38.00",
     "price-per-piece": "$1.58",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -590,7 +643,8 @@
     "pieces-per-case": "24",
     "price": "66.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -601,7 +655,8 @@
     "pieces-per-case": "24",
     "price": "20.00",
     "price-per-piece": "$0.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -612,7 +667,8 @@
     "pieces-per-case": "24",
     "price": "69.60",
     "price-per-piece": "$2.90",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -623,7 +679,8 @@
     "pieces-per-case": "6",
     "price": "17.50",
     "price-per-piece": "$2.92",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -634,7 +691,8 @@
     "pieces-per-case": "6",
     "price": "17.50",
     "price-per-piece": "$2.92",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -645,7 +703,8 @@
     "pieces-per-case": "6",
     "price": "17.00",
     "price-per-piece": "$2.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -656,7 +715,8 @@
     "pieces-per-case": "6",
     "price": "36.00",
     "price-per-piece": "$6.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -667,7 +727,8 @@
     "pieces-per-case": "12",
     "price": "16.50",
     "price-per-piece": "$1.38",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -678,7 +739,8 @@
     "pieces-per-case": "12",
     "price": "30.00",
     "price-per-piece": "$2.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Pickles_Peppers",
@@ -689,5 +751,6 @@
     "pieces-per-case": "2",
     "price": "26.00",
     "price-per-piece": "$13.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

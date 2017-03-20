@@ -7,7 +7,8 @@
     "pieces-per-case": "24",
     "price": "120.00",
     "price-per-piece": "$5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -18,7 +19,8 @@
     "pieces-per-case": "12",
     "price": "78.00",
     "price-per-piece": "$6.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -29,7 +31,8 @@
     "pieces-per-case": "50",
     "price": "128.00",
     "price-per-piece": "$2.56",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -40,7 +43,8 @@
     "pieces-per-case": "24",
     "price": "120.00",
     "price-per-piece": "$5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -51,7 +55,8 @@
     "pieces-per-case": "50",
     "price": "128.00",
     "price-per-piece": "$2.56",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -62,7 +67,8 @@
     "pieces-per-case": "6",
     "price": "22.50",
     "price-per-piece": "$3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -73,7 +79,8 @@
     "pieces-per-case": "6",
     "price": "25.50",
     "price-per-piece": "$4.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -84,7 +91,8 @@
     "pieces-per-case": "6",
     "price": "44.00",
     "price-per-piece": "$7.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -95,7 +103,8 @@
     "pieces-per-case": "6",
     "price": "48.00",
     "price-per-piece": "$8.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -106,7 +115,8 @@
     "pieces-per-case": "6",
     "price": "52.00",
     "price-per-piece": "$8.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -117,7 +127,8 @@
     "pieces-per-case": "6",
     "price": "27.00",
     "price-per-piece": "$4.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -128,7 +139,8 @@
     "pieces-per-case": "6",
     "price": "63.00",
     "price-per-piece": "$10.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Coffee",
@@ -139,5 +151,6 @@
     "pieces-per-case": "24",
     "price": "132.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

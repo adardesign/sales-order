@@ -7,7 +7,8 @@
     "pieces-per-case": "24",
     "price": "38.00",
     "price-per-piece": "$1.58",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -18,7 +19,8 @@
     "pieces-per-case": "24",
     "price": "39.00",
     "price-per-piece": "$1.63",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -29,7 +31,8 @@
     "pieces-per-case": "24",
     "price": "40.00",
     "price-per-piece": "$1.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -40,7 +43,8 @@
     "pieces-per-case": "12",
     "price": "33.00",
     "price-per-piece": "$2.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -51,7 +55,8 @@
     "pieces-per-case": "24",
     "price": "45.60",
     "price-per-piece": "$1.90",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -62,7 +67,8 @@
     "pieces-per-case": "12",
     "price": "48.00",
     "price-per-piece": "$4.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -73,7 +79,8 @@
     "pieces-per-case": "6",
     "price": "19.20",
     "price-per-piece": "$3.20",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -84,7 +91,8 @@
     "pieces-per-case": "12",
     "price": "24.00",
     "price-per-piece": "$2.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -95,7 +103,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -106,7 +115,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -117,7 +127,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -128,7 +139,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -139,7 +151,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -150,7 +163,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -161,7 +175,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -172,7 +187,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -183,7 +199,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -194,7 +211,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -205,7 +223,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -216,7 +235,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -227,7 +247,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -238,7 +259,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -249,7 +271,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -260,7 +283,8 @@
     "pieces-per-case": "12",
     "price": "32.00",
     "price-per-piece": "$2.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Water_Juice_Paste",
@@ -271,5 +295,6 @@
     "pieces-per-case": "12",
     "price": "52.00",
     "price-per-piece": "$4.33",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

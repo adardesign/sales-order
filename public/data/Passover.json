@@ -7,7 +7,8 @@
     "pieces-per-case": "12",
     "price": "47.40",
     "price-per-piece": "$3.95",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -18,7 +19,8 @@
     "pieces-per-case": "12",
     "price": "36.00",
     "price-per-piece": "$3.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -29,7 +31,8 @@
     "pieces-per-case": "24",
     "price": "68.00",
     "price-per-piece": "$2.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -40,7 +43,8 @@
     "pieces-per-case": "30",
     "price": "56.00",
     "price-per-piece": "$1.87",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -51,7 +55,8 @@
     "pieces-per-case": "6",
     "price": "52.00",
     "price-per-piece": "$8.67",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -62,7 +67,8 @@
     "pieces-per-case": "",
     "price": "56.00",
     "price-per-piece": "#DIV/0!",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -73,7 +79,8 @@
     "pieces-per-case": "12",
     "price": "60.00",
     "price-per-piece": "$5.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -84,7 +91,8 @@
     "pieces-per-case": "12",
     "price": "14.00",
     "price-per-piece": "$1.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Passover",
@@ -95,5 +103,6 @@
     "pieces-per-case": "12",
     "price": "58.50",
     "price-per-piece": "$4.88",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]

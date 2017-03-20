@@ -7,7 +7,8 @@
     "pieces-per-case": "24",
     "price": "20.40",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -18,7 +19,8 @@
     "pieces-per-case": "24",
     "price": "20.40",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -29,7 +31,8 @@
     "pieces-per-case": "24",
     "price": "20.40",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -40,7 +43,8 @@
     "pieces-per-case": "24",
     "price": "20.40",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -51,7 +55,8 @@
     "pieces-per-case": "24",
     "price": "20.40",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -62,7 +67,8 @@
     "pieces-per-case": "24",
     "price": "20.40",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -73,7 +79,8 @@
     "pieces-per-case": "24",
     "price": "20.40",
     "price-per-piece": "$0.85",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -84,7 +91,8 @@
     "pieces-per-case": "12",
     "price": "66.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -95,7 +103,8 @@
     "pieces-per-case": "6",
     "price": "22.50",
     "price-per-piece": "$3.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -106,7 +115,8 @@
     "pieces-per-case": "12",
     "price": "62.00",
     "price-per-piece": "$5.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -117,7 +127,8 @@
     "pieces-per-case": "12",
     "price": "66.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -128,7 +139,8 @@
     "pieces-per-case": "12",
     "price": "66.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -139,7 +151,8 @@
     "pieces-per-case": "6",
     "price": "29.00",
     "price-per-piece": "$4.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -150,7 +163,8 @@
     "pieces-per-case": "12",
     "price": "66.00",
     "price-per-piece": "$5.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -161,7 +175,8 @@
     "pieces-per-case": "24",
     "price": "18.00",
     "price-per-piece": "$0.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -172,7 +187,8 @@
     "pieces-per-case": "12",
     "price": "27.00",
     "price-per-piece": "$2.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -183,7 +199,8 @@
     "pieces-per-case": "8",
     "price": "15.30",
     "price-per-piece": "$1.91",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -194,7 +211,8 @@
     "pieces-per-case": "24",
     "price": "17.90",
     "price-per-piece": "$0.75",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -205,7 +223,8 @@
     "pieces-per-case": "5",
     "price": "45.00",
     "price-per-piece": "$9.00",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -216,7 +235,8 @@
     "pieces-per-case": "12",
     "price": "41.50",
     "price-per-piece": "$3.46",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -227,7 +247,8 @@
     "pieces-per-case": "24",
     "price": "32.40",
     "price-per-piece": "$1.35",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -238,7 +259,8 @@
     "pieces-per-case": "12",
     "price": "26.40",
     "price-per-piece": "$2.20",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -249,7 +271,8 @@
     "pieces-per-case": "12",
     "price": "26.40",
     "price-per-piece": "$2.20",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -260,7 +283,8 @@
     "pieces-per-case": "4",
     "price": "23.50",
     "price-per-piece": "$5.88",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -271,7 +295,8 @@
     "pieces-per-case": "12",
     "price": "42.00",
     "price-per-piece": "$3.50",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -282,7 +307,8 @@
     "pieces-per-case": "8",
     "price": "15.30",
     "price-per-piece": "$1.91",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -293,7 +319,8 @@
     "pieces-per-case": "8",
     "price": "15.30",
     "price-per-piece": "$1.91",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -304,7 +331,8 @@
     "pieces-per-case": "8",
     "price": "18.00",
     "price-per-piece": "$2.25",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -315,7 +343,8 @@
     "pieces-per-case": "12",
     "price": "19.80",
     "price-per-piece": "$1.65",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -326,7 +355,8 @@
     "pieces-per-case": "12",
     "price": "23.00",
     "price-per-piece": "$1.92",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -337,7 +367,8 @@
     "pieces-per-case": "812",
     "price": "40.00",
     "price-per-piece": "$0.05",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -348,7 +379,8 @@
     "pieces-per-case": "12",
     "price": "46.00",
     "price-per-piece": "$3.83",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -359,7 +391,8 @@
     "pieces-per-case": "12",
     "price": "26.00",
     "price-per-piece": "$2.17",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -370,7 +403,8 @@
     "pieces-per-case": "24",
     "price": "29.00",
     "price-per-piece": "$1.21",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -381,7 +415,8 @@
     "pieces-per-case": "8",
     "price": "15.30",
     "price-per-piece": "$1.91",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   },
   {
     "category": "Osem_Items",
@@ -392,5 +427,6 @@
     "pieces-per-case": "12",
     "price": "17.90",
     "price-per-piece": "$1.49",
-    "kashrut": ""
+    "kashrut": "",
+	"active":true
   }]
