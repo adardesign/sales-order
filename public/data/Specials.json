@@ -1,13 +1,13 @@
 [{
-    "category": "SALESMAN BEST",
-    "id": "OIL0801",
+    "category": "Oil",
+    "id": "BEST SALESMAN",
     "image": "OIL0801.jpg",
-    "description": "Casa Di Oliva  Extra Virgin Olive Oil 12/25.5 oz(Passover)",
+    "description": "Benyomin M. SALESMAN",
     "size": "",
     "pieces-per-case": "12",
-    "reg-price":"84.99",
-    "price": "66.00",
-    "price-per-piece": "$5.50",
+    "reg-price":"1000000.99",
+    "price": "0.00",
+    "price-per-piece": "$0.00",
     "kashrut": ""
   },
   {
